@@ -1,0 +1,215 @@
+@import url(reset.css);
+a {
+  text-decoration: none;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boxx {
+  -webkit-box-orient: horizontal;
+}
+.box_1 {
+  -webkit-box-flex: 1;
+}
+.more {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+#wrap {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#wrap .zhe {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  display: none;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wrap .zhe1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: none;
+}
+#wrap .zhe1 .zhe1_1 {
+  padding: 0 3rem;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 35%;
+  left: 0;
+}
+#wrap .zhe1 .zhe1_1 p {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+#wrap .zhe1 .zhe1_1 p:nth-child(1) {
+  padding: 3.5rem 0 2.3rem 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px 5px 0 0 ;
+  font-size: 1.4rem;
+}
+#wrap .zhe1 .zhe1_1 p:nth-child(2) {
+  padding: 1.2rem;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-weight: bold ;
+  color: #679DFF;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 5px 5px ;
+}
+#wrap header {
+  width: 100%;
+  height: 4.3rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  line-height: 4.3rem;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+}
+#wrap header .left,
+#wrap header .right {
+  width: 3.7rem;
+  height: auto;
+  background: none;
+}
+#wrap header .left img,
+#wrap header .right img {
+  width: 1rem;
+  height: auto;
+  background: none;
+  padding-top: 1.3rem;
+  box-sizing: border-box;
+}
+#wrap header .left b,
+#wrap header .right b {
+  font-weight: initial;
+  font-size: 1.5rem;
+}
+#wrap header h3 {
+  -webkit-box-flex: 1;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-size: 1.7rem;
+}
+#wrap section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+#wrap section .site {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+}
+#wrap section .site p {
+  -webkit-box-flex: 1;
+}
+#wrap section .site p input {
+  width: 100%;
+  height: auto;
+  background: none;
+  outline: none;
+  border: none;
+}
+#wrap section .shop_name {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.7rem;
+}
+#wrap section .shop_name .shop_name1 {
+  -webkit-box-flex: 1;
+  padding: 1.2rem 1rem;
+  box-sizing: border-box;
+}
+#wrap section .shop_name .shop_name1 input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  font-size: 1.4rem;
+  color: #ccc;
+  outline: none;
+  border: none;
+}
+#wrap section .tishi {
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  color: #FF7F1D;
+  font-weight: bold ;
+}
+.shop_seat {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  position: relative;
+  margin-top: 0.3rem;
+}
+.shop_seat p {
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #ccc;
+  font-size: ;
+}
+.shop_seat img {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.shop_sex {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.3rem ;
+}
+.shop_sex .sex_1 {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.shop_sex .sex_1 input {
+  float: right;
+}
