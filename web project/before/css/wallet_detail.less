@@ -1,0 +1,103 @@
+@import url("reset.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver:vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.more{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.r {
+    position: relative;
+}
+.a {
+    position: absolute;
+}
+html,
+body,
+.wrap{
+    .whb(100%,100%,#f2f2f2);
+}
+html{
+    font-size: 62.5%;
+}
+.yxd{
+    .wrap{
+        .box;
+        header{
+            border-bottom: 1px solid #bfbfbf;
+            .box(horizontal);
+            .whb(100%,4.4rem,#f7f7f7);
+            .head_left {
+                text-align: center;
+                .whb(3rem,4rem,none);
+                img {
+                    margin-top: 1.2rem;
+                    .whb(auto,1.8rem,none);
+                }
+            }
+            .head_center {
+                -webkit-box-flex: 1;
+                text-align: center;
+                line-height: 4.4rem;
+                font-size: 1.6rem;
+                color: #262626;
+                font-weight: bold;
+            }
+            .head_right {
+                text-align: center;
+                .whb(3rem,4rem,none);
+                img {
+                    margin-top: 1.2rem;
+                    .whb(auto,1.8rem,none);
+                }
+            }
+        }
+        section{
+            .box;
+            -webkit-box-flex: 1;
+            .one{
+                padding: 1rem;
+                box-sizing: border-box;
+//              .box(horizontal);
+                font-size: 1.4rem;
+                .whb(100%,auto,#fff);
+                .one_left{
+                    float: left;
+                }
+                .one_right{
+                    color: #bcbcbc;
+                    float: right;
+                }
+            }
+            .main{
+                margin-top: 0.1rem;
+                padding: 1rem;
+                box-sizing: border-box;
+                .whb(100%,auto,#fff);
+                .text{
+                    color: #666666;
+//                  .box(horizontal);
+                    .whb(100%,auto,none);
+                    line-height: 2rem;
+//                  &>div{
+//                      -webkit-box-flex: 1;
+                        .left{
+                            float: left;
+                        }
+                        .right{
+                           float: right;
+                        }
+//                  }
+                }
+            }
+            
+        }
+    }
+}

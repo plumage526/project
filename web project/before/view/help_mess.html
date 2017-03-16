@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>优橙协助(修改收货人信息 )</title>
+		<link rel="stylesheet" type="text/css" href="css/help_mess.css"/>
+		<script src="js/jquery-3.1.1.js"></script>
+	</head>
+	<body class="yxd">
+		<div class="wrap">
+			
+			<header>
+				<div class="head_left"><a href="#"><img src="images/img/register_03.gif" class="return"/></a></div>
+				<div class="head_center">收货人信息</div>
+			</header>
+			<section>
+				<div class="list">
+					<div class="list_left">收货人:</div>
+					<div class="list_right"><input type="text" name="" value="沙发咖啡" /></div>
+				</div>
+				<div class="list">
+					<div class="list_left">手机号:</div>
+					<div class="list_right"><input type="text" name="" value="189-1231-2312" /></div>
+				</div>
+				<div class="list">
+					<div class="list_left">所在地区:</div>
+					<div class="list_right"><input type="text" name="" value="北京,海淀" class="input" /><img src="images/index_20.gif" class="img"/></div>
+				</div>
+				<div class="list">
+					<div class="list_left">具体地址:</div>
+					<div class="list_right"><input type="text" name="" value="沙发咖啡" /></div>
+				</div>
+				<div class="btn">
+					<p>保存提交</p>
+				</div>
+			</section>
+			<div class="cover">
+			</div>
+			<div class="over">
+				<div class="cover_top">
+					<div class="ttop">
+						<h2>确定返回?</h2>
+						<p>您填写的信息尚未保存,确定返回吗?</p>
+					</div>
+					<div class="button">
+						<p class="not">取消</p>
+						<p class="sure">确认</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		
+		$(".return").on("click",function(){
+			$(".cover").css("display","block");
+			$(".over").css("display","block");
+		})
+		$(".not").on("click",function(){
+			$(".cover").css("display","none");
+			$(".over").css("display","none");
+		})
+		$(".sure").on("click",function(){
+//			$(".head_left>a").attr("href","help.html");
+			$(".cover").css("display","none");
+			$(".over").css("display","none");
+			
+		})
+		
+		
+	</script>
+</html>

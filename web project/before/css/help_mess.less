@@ -1,0 +1,156 @@
+@import url("reset.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver:vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.more {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.r {
+    position: relative;
+}
+.a {
+    position: absolute;
+}
+html,
+body,
+.wrap {
+    .whb(100%,100%,#f2f2f2);
+}
+html {
+    font-size: 62.5%;
+}
+.yxd {
+    .wrap {
+        .r;
+        .box;
+        .cover {
+            display: none;
+            .a;
+            left: 0;
+            top: 0;
+            opacity: 0.5;
+            .whb(100%,100%,black);
+        }
+        .over {
+            display: none;
+            text-align: center;
+            padding: 0 3rem;
+            box-sizing: border-box;
+            .whb(100%,100%,none);
+            .a;
+            left: 0;
+            top: 0;
+            .cover_top {
+                border-radius: 5px;
+                margin: 12rem auto 0;
+                .whb(100%,auro,#fff);
+                .ttop {
+                    .box;
+                    .whb(100%,auto,none);
+                    border-bottom: 1px solid #ccc;
+                    h2 {
+                        font-size: 1.6rem;
+                        line-height: 3rem;
+                        font-weight: bold;
+                    }
+                    p {
+                        margin-bottom: 1rem;
+                    }
+                }
+                .button {
+                    .box(horizontal);
+                    .whb(100%,auto,none);
+                    p{
+                        font-size: 1.4rem;
+                        padding: 1rem;
+                        box-sizing: border-box;
+                        text-align: center;
+                        color: #1187ff;
+                        -webkit-box-flex: 1;
+                        &:nth-child(1){
+                            border-right: 1px solid #CCCCCC; 
+                        }
+                    }
+                }
+            }
+        }
+        header {
+            line-height: 4rem;
+            border-bottom: 1px solid #bfbfbf;
+            .r;
+            .whb(100%,4rem,#f7f7f7);
+            .head_left {
+                .a;
+                left: 1rem;
+                .whb(2rem,auto,none);
+                img {
+                    .whb(1rem,auto,none);
+                }
+            }
+            .head_center {
+                text-align: center;
+                font-size: 1.6rem;
+            }
+        }
+        section {
+            -webkit-box-flex: 1;
+            .list {
+                padding: 0 1rem;
+                box-sizing: border-box;
+                line-height: 3rem;
+                .box(horizontal);
+                .whb(100%,auto,#fff);
+                .list_left {
+                    line-height: 3rem;
+                    .whb(auto,3rem,none);
+                    font-size: 1.4rem;
+                }
+                .list_right {
+                    -webkit-box-flex: 1;
+                    .r;
+                    color: #a6a6a6;
+                    .whb(100%,auto,none);
+                    line-height: 3rem;
+                    box-sizing: border-box;
+                    input {
+                        color: #a6a6a6;
+                        margin-bottom: 0.4rem;
+                        padding: 0.3rem;
+                        box-sizing: border-box;
+                        border: none;
+                        outline: none;
+                        font-size: 1.4rem; //                      line-height: 3rem;
+                        .whb(100%,100%,none);
+                    }
+                    .img {
+                        .a;
+                        right: 0;
+                        bottom: 0;
+                        .whb(1.5rem,auto,none);
+                    }
+                }
+            }
+            .btn {
+                padding: 1rem;
+                box-sizing: border-box;
+                .whb(100%,auto,none);
+                p {
+                    text-align: center;
+                    line-height: 3rem;
+                    border-radius: 5px;
+                    font-size: 1.6rem;
+                    color: #fff;
+                    .whb(100%,auto,#ff7f1d);
+                }
+            }
+        }
+    }
+}
