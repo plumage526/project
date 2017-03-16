@@ -1,0 +1,153 @@
+@import url("reset.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver:vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.r {
+    position: relative;
+}
+.a {
+    position: absolute;
+}
+html,
+body,
+.wrap {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.yxd {
+    background: #f7f7f7;
+    
+    .wrap {
+        .box;
+        .r;
+        //遮罩层
+//      .cover{
+//          display: none;
+//         .a;
+//          left: 0;
+//          top: 0;
+//          opacity: 0.5;
+//          .whb(100%,100%,black);
+//      }
+//      .over{
+//         display: none;
+//          text-align: center;
+//          padding:0 3rem;
+//          box-sizing: border-box;
+//          .whb(100%,100%,none);
+//          .a;
+//          left: 0;
+//          top: 0;
+//          .cover_top{
+//              padding: 2rem;
+//              box-sizing: border-box;
+//              border-radius: 5px;
+//              margin: 0 auto;
+//              margin-top: 12rem;
+//              .whb(100%,auro,#fff);
+//              img{
+//                  .whb(5rem,auto,none);
+//              }
+//              p{
+//                  margin-top: 1.5rem;
+//                  text-align: center;
+//              }
+//          }
+//      }
+        //
+        header {
+            .box(horizontal);
+            .whb(100%,4rem,none);
+            border-bottom: 1px solid #cccccc;
+            .con {
+                .whb(100%,4rem,none);
+                text-align: center;
+                line-height: 4rem;
+                font-size: 1.6rem;
+                font-weight: bold;
+            }
+            .r;
+            img {
+                .a;
+                left: 1rem;
+                top: 1rem;
+                .whb(2rem,auto,none);
+            }
+        }
+        section {
+            
+            -webkit-box-flex: 1;
+            .list {
+                padding: 0 1.1rem;
+                box-sizing: border-box; //              border-bottom: 1px solid #cccccc;
+                .box;
+                .whb(100%,auto,#fff);
+                .input {
+                    .whb(100%,auto,#fff);
+                    input {
+                        border: none;
+                        border-bottom: 1px solid #cccccc;
+                        line-height: 3.8rem;
+                        .whb(100%,auto,#fff);
+                        outline: none;
+                        &:nth-child(3){
+                            padding-left: 0.1rem;
+                            box-sizing: border-box;
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+            .reg {
+                .whb(100%,auto,none);
+                .box(horizontal);
+                .reg_left {
+                   -webkit-box-flex: 1;
+                    input {
+                        
+                        padding: 0 1.1rem;
+                        box-sizing: border-box;
+                        border: none;
+                        border-bottom: 1px solid #cccccc;
+                        border-top: 1px solid #cccccc;
+                        line-height: 3.8rem;
+                        .whb(100%,auto,#fff);
+                        outline: none;
+                        
+                    }
+                }
+                .reg_right{
+                    .whb(7.8rem,auto,#fff);
+                    text-align: center;
+                    line-height: 3.8rem;
+                    border: 1px solid #ccc;
+                    border-right: none;
+                    color: #333333;
+                }
+            }
+            .btn{
+                padding: 0 1.1rem;
+                box-sizing: border-box;
+                p{
+                font-size: 1.6rem;
+                color: #fff;
+                text-align: center;
+                margin-top: 2rem;
+                .whb(100%,auto,#ff7d1b);
+                padding-top: 1rem 1rem;
+                box-sizing: border-box;
+                line-height: 3rem;
+                border-radius: 5px;
+                }
+            }
+        }
+    }
+}

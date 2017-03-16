@@ -1,0 +1,190 @@
+@import url("reset.css");
+.more {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+html {
+  font-size: 62.5%;
+}
+.yxd .wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.yxd .wrap header {
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.4rem;
+  background: #f7f7f7;
+}
+.yxd .wrap header .head_left {
+  text-align: center;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+}
+.yxd .wrap header .head_left img {
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.yxd .wrap header .head_center {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  line-height: 2rem;
+  text-align: center;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+}
+.yxd .wrap header .head_center .text {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid #ff7f1d;
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.yxd .wrap header .head_center .text p {
+  font-size: 1.4rem;
+  color: #ff7f1d;
+  font-weight: bold;
+  -webkit-box-flex: 1;
+}
+.yxd .wrap header .head_center .text .p_style {
+  background: #ff7f1d;
+  color: #FFFFFF;
+}
+.yxd .wrap header .head_right {
+  text-align: center;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+}
+.yxd .wrap header .head_right img {
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.yxd .wrap section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.yxd .wrap section::-webkit-scrollbar {
+  width: 0;
+}
+.yxd .wrap section .chance {
+  border-bottom: 1px solid #bfbfbf;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.yxd .wrap section .chance ul {
+  line-height: 2.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.yxd .wrap section .chance ul li {
+  position: relative;
+  text-align: center;
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+}
+.yxd .wrap section .chance ul li .span {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: inline-block;
+  width: 100%;
+  height: 0.2rem;
+  background: #ff7f1d;
+}
+.yxd .wrap section .shop_list {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.yxd .wrap section .shop_list .tit {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 1.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.yxd .wrap section .shop_list .tit .tit_left {
+  -webkit-box-flex: 1;
+}
+.yxd .wrap section .shop_list .tit .tit_right {
+  text-align: center;
+  width: 4rem;
+  height: auto;
+  background: none;
+  color: #ff7f1d;
+}
+.yxd .wrap section .shop_list .list_main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  color: #666666;
+  font-size: 1.4rem;
+}
+.yxd .wrap footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-top: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.yxd .wrap footer dl {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+.yxd .wrap footer dl dt img {
+  width: auto;
+  height: 2.2rem;
+  background: none;
+}
+.yxd .wrap footer dl dd {
+  color: #989898;
+}
+.yxd .wrap footer dl .dd_color {
+  color: #ff7f1d;
+}
+.yxd .wrap footer .div img {
+  width: auto;
+  height: 4rem;
+  background: none;
+}
