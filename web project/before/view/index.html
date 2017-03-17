@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html>
-
+<html ng-app='myApp'>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>优橙首页</title>
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<script src="js/jquery-3.1.1.js"></script>
-		 <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
-        <script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	
+		<script src="../js/angular.js"></script>
+		<script src="../js/angular-route.min.js"></script>
+		<script src="../js/angular-ui-router.min.js"></script>
+		
+        <script src="../js/App.js"></script>
 	</head>
 
-	<body class="yxd" ng-app='routingDemoApp'>
+	<body class="yxd" ui-view>
 		<div class="wrap">
 			<header>
-				<img src="images/index.gif" alt="" />
+				<img src="../images/index.gif" alt="" />
 				<div class="con">优橙设计师移动工作台</div>
 			</header>
 			<section>
 				<div class="person">
 					<div class="per">
 						<dl>
-							<dt><img src="images/index_13.gif"/></dt>
+							<dt><img src="../images/index_13.gif"/></dt>
 							<dd>
-								<h2>XXXX北京旗舰店<img src="images/index_14.gif" alt="" /></h2>
+								<h2>XXXX北京旗舰店<img src="../images/index_14.gif" alt="" /></h2>
 								<h3>店铺状态 : <span>停业</span></h3>
 							</dd>
 						</dl>
 						<div class="per_right">
-							<img src="images/index_20.gif" />
+							<img src="../images/index_20.gif" />
 						</div>
 					</div>
 					<p> <span>Eminem</span></p>
@@ -37,14 +39,14 @@
 					<p><span>开始工作</span> Start-up</p>
 					<div class="list">
 						<dl>
-							<dt><img src="images/index_06.gif"/></dt>
+							<dt><img src="../images/index_06.gif"/></dt>
 							<dd>
 								<h2>粉丝</h2>
 								<h3>120</h3>
 							</dd>
 						</dl>
 						<dl>
-							<dt><img src="images/index_09.gif"/></dt>
+							<dt><img src="../images/index_09.gif"/></dt>
 							<dd>
 								<h2>上架商品</h2>
 								<h3>86</h3>
@@ -53,14 +55,14 @@
 					</div>
 					<div class="list">
 						<dl>
-							<dt><img src="images/index_04.gif"/></dt>
+							<dt><img src="../images/index_04.gif"/></dt>
 							<dd>
 								<h2>库存商品</h2>
 								<h3>115</h3>
 							</dd>
 						</dl>
 						<dl>
-							<dt><img src="images/index_03.gif"/></dt>
+							<dt><img src="../images/index_03.gif"/></dt>
 							<dd>
 								<h2>草稿箱</h2>
 								<h3>15</h3>
@@ -69,14 +71,14 @@
 					</div>
 					<div class="list">
 						<dl>
-							<dt><img src="images/index_1.gif"/></dt>
+							<dt><img src="../images/index_1.gif"/></dt>
 							<dd>
 								<h2>财务管理</h2>
 								<h3>我的钱包,资金明细</h3>
 							</dd>
 						</dl>
 						<dl>
-							<dt><img src="images/index_08.gif"/></dt>
+							<dt><img src="../images/index_08.gif"/></dt>
 							<dd>
 								<h2>评论管理</h2>
 								<h3>及时回复客户评论</h3>
@@ -86,11 +88,11 @@
 				</div>
 				<div class="message">
 					<div class="mes_tit">
-						<div class="left"><img src="images/index17.gif"/><span>消息箱</span><span>(39)</span></div>
-						<div class="right"><img src="images/index_20.gif" /></div>
+						<div class="left"><img src="../images/index17.gif"/><span>消息箱</span><span>(39)</span></div>
+						<div class="right"><img src="../images/index_20.gif" /></div>
 					</div>
 					<div class="mes_list">
-						<div class="mes_left"><img src="images/index_16.gif"/></div>
+						<div class="mes_left"><img src="../images/index_16.gif"/></div>
 						<div class="mes_center">
 							<h2>物流信息</h2>
 							<h3>你购买的【商品名称】已发货，请注意查收！</h3>
@@ -98,7 +100,7 @@
 						<div class="mes_right">08:20</div>
 					</div>
 					<div class="mes_list">
-						<div class="mes_left"><img src="images/index_07.gif"/></div>
+						<div class="mes_left"><img src="../images/index_07.gif"/></div>
 						<div class="mes_center">
 							<h2>物流信息</h2>
 							<h3>你购买的【商品名称】已发货，请注意查收！</h3>
@@ -106,7 +108,7 @@
 						<div class="mes_right">08:20</div>
 					</div>
 					<div class="mes_list">
-						<div class="mes_left"><img src="images/index_07.gif"/></div>
+						<div class="mes_left"><img src="../images/index_07.gif"/></div>
 						<div class="mes_center">
 							<h2>物流信息</h2>
 							<h3>你购买的【商品名称】已发货，请注意查收！</h3>
@@ -114,7 +116,7 @@
 						<div class="mes_right">08:20</div>
 					</div>
 					<div class="mes_list">
-						<div class="mes_left"><img src="images/index_07.gif"/></div>
+						<div class="mes_left"><img src="../images/index_07.gif"/></div>
 						<div class="mes_center">
 							<h2>物流信息</h2>
 							<h3>你购买的【商品名称】已发货，请注意查收！</h3>
@@ -122,7 +124,7 @@
 						<div class="mes_right">08:20</div>
 					</div>
 					<div class="mes_list">
-						<div class="mes_left"><img src="images/index_07.gif"/></div>
+						<div class="mes_left"><img src="../images/index_07.gif"/></div>
 						<div class="mes_center">
 							<h2>物流信息</h2>
 							<h3>你购买的【商品名称】已发货，请注意查收！</h3>
@@ -133,36 +135,26 @@
 				
 			</section>
 			<footer>
-				<dl>
-					<dt><img src="images/index_10.gif"/></dt>
+				<dl ui-sref="index">
+					<dt><img src="../images/index_10.gif"/></dt>
 					<dd>首页</dd>
 				</dl>
-				<dl>
-					<dt><img src="images/index_18.gif"/></dt>
+				<dl ui-sref="help">
+					<dt><img src="../images/index_18.gif"/></dt>
 					<dd>优橙协助</dd>
 				</dl>
-				<div class="div"><img src="images/index_12.gif" /></div>
-				<dl>
-					<dt><img src="images/index_05.gif"/></dt>
+				<div class="div"><img src="../images/index_12.gif" /></div>
+				<dl ui-sref="shop_order">
+					<dt><img src="../images/index_05.gif"/></dt>
 					<dd>订单状态</dd>
 				</dl>
 				<dl>
-					<dt><img src="images/index_15.gif"/></dt>
+					<dt><img src="../images/index_15.gif"/></dt>
 					<dd>我的店铺</dd>
 				</dl>
 			</footer>
 		</div>
 	</body>
-	<script type="text/javascript">
-		angular.module('routingDemoApp',['ngRoute']);
-	    .config(['$routeProvider', function($routeProvider){
-	        $routeProvider
-	        .when('/',{template:'这是首页页面'})
-	        .when('/computers',{template:'这是电脑分类页面'})
-	        .when('/printers',{template:'这是打印机页面'})
-	        .otherwise({redirectTo:'/'});
-	    }]);
-	</script>
 </html>
 
 
