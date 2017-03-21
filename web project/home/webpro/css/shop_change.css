@@ -1,0 +1,253 @@
+@import url(reset.css);
+a {
+  text-decoration: none;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boxx {
+  -webkit-box-orient: horizontal;
+}
+.box_1 {
+  -webkit-box-flex: 1;
+}
+.more {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+#wrap {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#wrap .zhe {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  display: none;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wrap .zhe1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: none;
+}
+#wrap .zhe1 .zhe1_1 {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#wrap .zhe1 .zhe1_1 p {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  line-height: 3rem;
+}
+#wrap .zhe1 .zhe1_1 p:nth-child(1) {
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px 5px 0 0 ;
+}
+#wrap .zhe1 .zhe1_1 p:nth-child(2) {
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 5px 5px ;
+}
+#wrap .zhe1 .zhe1_1 p:nth-child(3) {
+  margin-top: 0.5rem;
+  border-radius: 5px ;
+}
+#wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  line-height: 4rem;
+  font-size: 1.7rem;
+  font-weight: bold ;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+#wrap header .left,
+#wrap header .right {
+  width: 4rem;
+  height: auto;
+  background: none;
+}
+#wrap header .left img,
+#wrap header .right img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  vertical-align: middle;
+}
+#wrap header .right {
+  text-align: right;
+}
+#wrap header h2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+#wrap section {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: #f2f2f2;
+  overflow: auto;
+}
+#wrap section .change_1 {
+  color: #;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+#wrap section .change {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  border: 1px solid #CCCCCC;
+  border-left: none ;
+  border-right: none ;
+}
+#wrap section .change .left {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+}
+#wrap section .change .left .left_ {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  padding: 1rem 0.7rem;
+  box-sizing: border-box;
+}
+#wrap section .change .left .left_ input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  font-size: 1.6rem ;
+  outline: none;
+  border: none;
+}
+#wrap section .change .right {
+  border-left: 1px solid #ccc;
+  padding: 1rem 0.7rem;
+  box-sizing: border-box;
+}
+#wrap section .change .right b {
+  font-weight: initial ;
+  font-size: 1.6rem;
+}
+#wrap section .btnn {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 1.7rem 1rem;
+  box-sizing: border-box;
+}
+#wrap section .btnn button {
+  width: 100%;
+  height: auto;
+  background: #ff7f1d;
+  font-size: 1.7rem;
+  color: #fff;
+  border: 1px solid #FF7F1D;
+  border-radius: 0.25rem ;
+  padding: 0.4rem 0;
+  box-sizing: border-box;
+}
+.change1 {
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-left: none ;
+  border-right: none ;
+  background: #fff;
+}
+.change1 .change1_ {
+  border: none;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+}
+.change1 .change1_ .left {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+}
+.change1 .change1_ .left .left_ {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  padding: 1rem 0.7rem;
+  box-sizing: border-box;
+}
+.change1 .change1_ .left .left_ input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  font-size: 1.6rem ;
+  outline: none;
+  border: none;
+}
+.change1 .change1_ .right {
+  border-left: 1px solid #ccc;
+  padding: 1rem 0.7rem;
+  box-sizing: border-box;
+}
+.change1 .change1_ .right b {
+  font-weight: initial ;
+  font-size: 1.6rem;
+}
+.change1 .change_2 {
+  padding: 1rem 0;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.change1 .change_2 input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  font-size: 1.6rem ;
+  outline: none;
+  border: none;
+}

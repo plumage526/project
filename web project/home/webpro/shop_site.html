@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	     <link rel="stylesheet" type="text/css" href="css/shop_site.css"/>
+		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="left">
+					<img src="img/fan.jpg"/>
+				</div>
+				<h3>默认收件信息</h3>
+				<div class="right">
+					<b>保存</b>
+				</div>
+			</header>
+			<section>
+				<div class="site"><span>收货人：</span><p><input type="text" /></p></div>
+				<div class="site"><span>手机号：</span><p><input type="text" /></p></div>
+				<div class="site"><span>所在地区：</span><p><input type="text" /></p></div>
+				<div class="site"><span>具体地址：</span><p><input type="text" /></p></div>
+			</section>
+				<div class="zhe">
+				
+			</div>
+			<div class="zhe1">
+			<!--	<!--带滑动效果的下拉遮罩层--  No实现！>-->
+				<div class="zhe1_1">
+					<p>优橙客服会在5个工作日内与您联系</p>
+					<p class="btn1">好的</p>
+				</div>
+			</div>
+		</div>
+	</body>
+		<script type="text/javascript">
+		$(function(){
+			$('.btn').click(function(){
+				$('.zhe').css("display","block");
+				$('.zhe1').css("display","block");
+			})
+				$('.btn1').click(function(){
+				$('.zhe').css("display","none");
+				$('.zhe1').css("display","none");
+			})
+			
+		})
+	</script>
+</html>
