@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	     <link rel="stylesheet" type="text/css" href="css/shop_site.css"/>
 		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/a.js" type="text/javascript" charset="utf-8"></script>
 	</head>
-	<body>
+	<body ui-view>
 		<div id="wrap">
 			<header>
 				<div class="left">
-					<a href="shop_one.html"><img src="img/fan.jpg"/></a>
+					<a ui-sref="return3"><img src="img/fan.jpg"/></a>
 				</div>
 				<h3>店铺名称</h3>
 				<div class="right">
