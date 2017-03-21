@@ -16,7 +16,7 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
 		})
 		.state('return', {
 			url: 'index',
-			templateUrl: 'index.html'
+			templateUrl: 'pro_index.html'
 		})
 		.state('shop_one', {
 			url: 'shop_one',
@@ -55,4 +55,4 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
 			templateUrl: 'shop_er.html'
 		})
 		
-})
+}]);
