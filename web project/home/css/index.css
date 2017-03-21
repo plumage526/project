@@ -299,14 +299,15 @@ html {
   border-top: 1px solid #bfbfbf;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
-  padding-top: 0.5rem;
-  box-sizing: border-box;
 }
 .yxd .wrap footer dl {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   text-align: center;
   -webkit-box-flex: 1;
+}
+.yxd .wrap footer dl dt {
+  margin-top: 0.6rem;
 }
 .yxd .wrap footer dl dt img {
   width: auto;

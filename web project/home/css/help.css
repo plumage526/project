@@ -20,15 +20,58 @@ body,
 html {
   font-size: 62.5%;
 }
+.yxd {
+  background: #f7f7f7;
+}
 .yxd .wrap {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-.yxd .wrap section {
-  overflow-y: auto;
+.yxd .wrap header {
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+}
+.yxd .wrap header .left {
+  text-align: center;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+}
+.yxd .wrap header .left img {
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.yxd .wrap header .center {
   -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.7rem;
+  color: #262626;
+  font-weight: bold;
+}
+.yxd .wrap header .right {
+  text-align: center;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+}
+.yxd .wrap header .right img {
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.yxd .wrap section {
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
 }
 .yxd .wrap section::-webkit-scrollbar {
   width: 0;
@@ -185,10 +228,8 @@ html {
 }
 .yxd .wrap footer .foot_left {
   -webkit-box-flex: 1;
-  padding: 0.5rem;
-  box-sizing: border-box;
   font-size: 1.6rem;
-  line-height: 3rem;
+  line-height: 5rem;
 }
 .yxd .wrap footer .foot_left span {
   color: #ff7d1b;
