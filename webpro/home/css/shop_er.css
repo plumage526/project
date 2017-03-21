@@ -1,0 +1,164 @@
+@import url(reset.css);
+a {
+  text-decoration: none;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boxx {
+  -webkit-box-orient: horizontal;
+}
+.box_1 {
+  -webkit-box-flex: 1;
+}
+.more {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+#wrap {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#wrap .zhe {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  display: none;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wrap .zhe1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: none;
+}
+#wrap .zhe1 .zhe1_1 {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+}
+#wrap .zhe1 .zhe1_1 .zhe2 {
+  background: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+#wrap .zhe1 .zhe1_1 .zhe2 dl {
+  -webkit-box-flex: 1;
+  width: 0;
+}
+#wrap .zhe1 .zhe1_1 .zhe2 dl img {
+  width: auto;
+  height: 3.2rem;
+  background: none;
+}
+#wrap .zhe1 .zhe1_1 .zhe2:nth-child(1) {
+  padding-top: 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem 1rem 0 0 ;
+}
+#wrap .zhe1 .zhe1_1 .zhe2:nth-child(2) {
+  padding-top: 1rem;
+  border-radius: 0 0 1rem 1rem ;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+#wrap .zhe1 .zhe1_1 .zhe2:nth-child(2) dl:nth-child(4) {
+  visibility: hidden;
+}
+#wrap .zhe1 .zhe1_1 .zhe3 {
+  text-align: center;
+  background: #FFFFFF;
+  margin-top: 1.6rem;
+  border-radius: 1rem ;
+  padding: 1.6rem 0;
+  font-size: 1.7rem;
+  font-weight: bold ;
+}
+#wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.3rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  line-height: 4rem;
+  font-size: 1.7rem;
+  font-weight: bold ;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+#wrap header .left,
+#wrap header .right {
+  width: 4rem;
+  height: auto;
+  background: none;
+}
+#wrap header .left img,
+#wrap header .right img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  vertical-align: middle;
+}
+#wrap header .right {
+  text-align: right;
+}
+#wrap header h2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+#wrap section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2 ;
+  position: relative;
+}
+#wrap section .er {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#wrap section .er img {
+  padding: 1.2rem;
+  width: 13.4rem;
+  height: auto;
+  background: #ffffff;
+}

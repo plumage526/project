@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		 <link rel="stylesheet" type="text/css" href="css/shop_er.css"/>
+		 <script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+			 <div class="left">
+ 			  <a href="shop_one.html"><img src="img/e_03.jpg"/></a>
+ 		     </div>
+ 		<h2>店铺与个人信息</h2>
+ 		<div class="right">
+ 			<img src="img/fenxiang_03.jpg"/>
+ 		</div>
+			</header>
+			<section>
+				<div class="er">
+					<img src="img/erweima_03.jpg"/>
+				</div>
+			</section>
+			<div class="zhe">
+				
+			</div>
+			
+			
+			<div class="zhe1">
+				<div class="zhe1_1">
+				
+					<div class="zhe2">
+						<dl>
+							<dt><img src="img/kongjian.gif"/></dt>
+							<dd>QQ空间</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/peq.gif"/></dt>
+							<dd>朋友圈</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/QQ_03.gif"/></dt>
+							<dd>QQ好友</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/weixin_03.gif"/></dt>
+							<dd>微信好友</dd>
+						</dl>
+					</div>
+						<div class="zhe2">
+						<dl>
+							<dt><img src="img/weib.gif"/></dt>
+							<dd>腾讯微博</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/xinlang_03.gif"/></dt>
+							<dd>新浪微博</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/fuzhi.gif"/></dt>
+							<dd>复制链接</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/kongjian.gif"/></dt>
+							<dd>QQ空间</dd>
+						</dl>
+					</div>
+					<div class="zhe3">
+					<span class="quxiao">取消</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$(".right img").click(function(){
+				$('.zhe').css("display","block");
+				$('.zhe1').css("display","block");
+			})
+				$('.quxiao').click(function(){
+				$('.zhe').css("display","none");
+				$('.zhe1').css("display","none");
+			})
+		})
+		
+	</script>
+</html>
