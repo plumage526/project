@@ -1,5 +1,5 @@
-var myApp = angular.module("myApp", ['ui.router']);
-myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
+var myapp = angular.module("myApp", ['ui.router']);
+myapp.config(function ($stateProvider, $urlRouterProvider) {
 	$stateProvider
 
 		.state('expo1', {
@@ -26,7 +26,7 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
 			url: 'finish2',
 			templateUrl: 'finish2.html'
 		})
-		.state('return1', {
+		.state('return1',{
 			url: 'return1',
 			templateUrl: 'expo1.html'
 		})
@@ -55,4 +55,4 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
 			templateUrl: 'shop_er.html'
 		})
 		
-}]);
+})

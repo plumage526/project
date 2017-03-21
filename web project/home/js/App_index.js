@@ -61,10 +61,7 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
             url:"shop_order_detail",
             templateUrl: "shop_order_detail.html"
         })
-         .state("webpro_index", {
-            url:"webpro_index",
-            templateUrl: "../../../webpro/home/pro_index.html"
-        })
+         
          
          
         
