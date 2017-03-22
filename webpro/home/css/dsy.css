@@ -26,9 +26,9 @@ a {
 html {
   font-size: 62.5%;
 }
-html,
+#wrap,
 body,
-#wrap {
+html {
   width: 100%;
   height: 100%;
   background: none;
@@ -42,13 +42,13 @@ body,
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
   width: 100%;
-  height: 4.4rem;
+  height: 4.5rem;
   background: #f7f7f7;
   border-bottom: 1px solid #ccc;
   line-height: 4.4rem;
-  font-size: 1.7rem;
-  font-weight: bold ;
-  padding: 0 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
   box-sizing: border-box;
 }
 .wsy #wrap header .left,
@@ -65,6 +65,9 @@ body,
   vertical-align: middle;
 }
 .wsy #wrap header .right {
+  width: 3rem;
+  height: auto;
+  background: none;
   text-align: right;
 }
 .wsy #wrap header h2 {
@@ -76,7 +79,7 @@ body,
   overflow: auto;
   background: #f2f2f2;
 }
-.wsy #wrap section p {
+.wsy #wrap section .pro_index p {
   background: #fff;
   border-bottom: 1px solid #ccc;
   font-size: 1.5rem;
@@ -84,26 +87,26 @@ body,
   line-height: 3.8rem;
   color: #262626;
 }
-.wsy #wrap section p a {
+.wsy #wrap section .pro_index p a {
   padding-left: 1.2rem;
   box-sizing: border-box;
   color: #000000;
 }
-.wsy #wrap section p .i {
+.wsy #wrap section .pro_index p .i {
   float: right;
   padding-top: 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap section p:nth-child(1) {
+.wsy #wrap section .pro_index p:nth-child(1) {
   margin-top: 1rem;
 }
-.wsy #wrap section p:nth-child(3) {
+.wsy #wrap section .pro_index p:nth-child(3) {
   margin-top: 1rem;
 }
-.wsy #wrap section p:nth-child(8) {
+.wsy #wrap section .pro_index p:nth-child(8) {
   margin-top: 1rem;
 }
-.wsy #wrap section img {
+.wsy #wrap section .pro_index img {
   width: auto;
   height: 2.4rem;
   background: none;
@@ -121,22 +124,16 @@ body,
 .wsy #wrap footer dl {
   text-align: center;
   -webkit-box-flex: 1;
-  padding-top: 0.5rem;
-  box-sizing: border-box;
 }
 .wsy #wrap footer dl img {
   width: auto;
-  height: 2.2rem;
+  height: 2rem;
   background: none;
-}
-.wsy #wrap footer .dl {
-  padding-top: 0.25rem;
-  box-sizing: border-box;
 }
 .wsy #wrap footer .dl dt {
   box-sizing: border-box;
   border: 1px solid #FF7F1D;
-  border-radius: 10px ;
+  border-radius: 10px;
   font-size: 3.5rem;
   color: #fff;
   width: 100%;

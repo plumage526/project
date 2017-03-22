@@ -33,9 +33,9 @@ a {
 html {
     font-size: 62.5%;
 }
-html,
+#wrap,
 body,
-#wrap {
+html {
     .whb(100%,100%,none);
 }
 .wsy {
@@ -44,12 +44,12 @@ body,
         header {
             .box;
             .boxx;
-            .whb(100%,4.4rem,#f7f7f7);
+            .whb(100%,4.5rem,#f7f7f7);
             border-bottom: 1px solid #ccc;
             line-height: 4.4rem;
-            font-size: 1.7rem;
+            font-size: 1.6rem;
             font-weight: bold;
-            padding: 0 1rem;
+            padding: 0 0.5rem;
             box-sizing: border-box;
             .left,
             .right {
@@ -60,6 +60,7 @@ body,
                 }
             }
             .right {
+                 .whb(3rem,auto,none);
                 text-align: right;
             }
             h2 {
@@ -71,37 +72,40 @@ body,
             .box_1;
             overflow: auto;
             background: #f2f2f2;
-            p {
-                background: #fff;
-                border-bottom: 1px solid #ccc;
-                font-size: 1.5rem;
-                padding: 0 1rem;
-                line-height: 3.8rem;
-                color: #262626;
-                a {
-                    padding-left: 1.2rem;
-                    box-sizing: border-box;
-                    color: #000000;
+            .pro_index {
+                p {
+                    background: #fff;
+                    border-bottom: 1px solid #ccc;
+                    font-size: 1.5rem;
+                    padding: 0 1rem;
+                    line-height: 3.8rem;
+                    color: #262626;
+                    a {
+                        padding-left: 1.2rem;
+                        box-sizing: border-box;
+                        color: #000000;
+                    }
+                    .i {
+                        float: right;
+                        padding-top: 1rem;
+                        box-sizing: border-box;
+                    }
                 }
-                .i {
-                    float: right;
-                    padding-top: 1rem;
-                    box-sizing: border-box;
+                p:nth-child(1) {
+                    margin-top: 1rem;
+                }
+                p:nth-child(3) {
+                    margin-top: 1rem;
+                }
+                p:nth-child(8) {
+                    margin-top: 1rem;
+                }
+                img {
+                    .whb(auto,2.4rem,none);
+                    vertical-align: middle;
                 }
             }
-            p:nth-child(1) {
-                margin-top: 1rem;
-            }
-            p:nth-child(3) {
-                margin-top: 1rem;
-            }
-            p:nth-child(8) {
-                margin-top: 1rem;
-            }
-            img {
-                .whb(auto,2.4rem,none);
-                vertical-align: middle;
-            }
+
         }
         footer {
             .whb(100%,4.7rem,none);
@@ -111,15 +115,11 @@ body,
             dl {
                 text-align: center;
                 .box_1;
-//              padding-top: 0.5rem;
-//              box-sizing: border-box;
                 img {
-                    .whb(auto,2.2rem,none);
+                    .whb(auto,2rem,none);
                 }
             }
             .dl {
-//              padding-top: 0.25rem;
-//              box-sizing: border-box;
                 dt {
                     //                       padding:1rem;
                     box-sizing: border-box;

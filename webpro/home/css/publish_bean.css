@@ -103,11 +103,12 @@ body,
   font-size: 1.7rem;
 }
 #wrap header h3 img {
+  margin-right: 0.3rem;
   width: 1.2rem;
   height: auto;
   background: none;
   float: left;
-  padding-top: 1rem;
+  padding-top: 1.4rem;
   box-sizing: border-box;
 }
 #wrap section {

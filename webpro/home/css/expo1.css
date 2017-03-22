@@ -26,9 +26,9 @@ a {
 html {
   font-size: 62.5%;
 }
-html,
+#wrap,
 body,
-#wrap {
+html {
   width: 100%;
   height: 100%;
   background: none;
@@ -79,16 +79,15 @@ body,
   border-bottom: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1.4rem;
-  font-weight: bold ;
+  font-weight: bold;
 }
 .wsy #wrap .zhe1 .zhe1_1 p:nth-child(2) {
   margin-top: 0.5rem;
   padding: 1.2rem;
   box-sizing: border-box;
   border-bottom: 1px solid #ccc;
-  border-radius: 5px ;
   font-size: 1.4rem;
-  font-weight: bold ;
+  font-weight: bold;
   border-radius: 5px;
 }
 .wsy #wrap header {
@@ -101,7 +100,7 @@ body,
   border-bottom: 1px solid #ccc;
   line-height: 4.4rem;
   font-size: 1.7rem;
-  font-weight: bold ;
+  font-weight: bold;
   padding: 0 1rem;
   box-sizing: border-box;
 }
@@ -122,8 +121,7 @@ body,
   text-align: right;
 }
 .wsy #wrap header .right a {
-  padding-left: 1rem;
-  box-sizing: border-box;
+  margin-left: 0.5rem;
 }
 .wsy #wrap header .right a img {
   width: auto;
@@ -150,6 +148,86 @@ body,
   height: auto;
   background: #ffffff;
   position: relative;
+}
+.wsy #wrap section .expo .tu .dingwei {
+  width: 100%;
+  height: auto;
+  background: none;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+}
+.wsy #wrap section .expo .tu .dingwei .dl {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dt {
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dt img {
+  width: 4rem;
+  height: auto;
+  background: none;
+  vertical-align: middle;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dd {
+  -webkit-box-flex: 1;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dd h2 {
+  padding-top: 1rem;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dd h2 span {
+  margin-left: 1rem;
+  display: inline-block;
+  padding: 0.1rem 0.3rem;
+  box-sizing: border-box;
+  background: #FF7E1C;
+  border: 1px solid #FF540C;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dd p img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.wsy #wrap section .expo .tu .dingwei .dl dd p span {
+  float: right;
+  padding: 0.1rem 0.3rem;
+  box-sizing: border-box;
+  background: #FF540C;
+  border: 1px solid #FF540C;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+.wsy #wrap section .expo .tu .dingwei .bottom {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  opacity: 0.6;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+}
+.wsy #wrap section .expo .tu .dingwei .bottom dl {
+  text-align: center;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+}
+.wsy #wrap section .expo .tu .dingwei .bottom dl img {
+  width: 2rem;
+  height: auto;
+  background: none;
 }
 .wsy #wrap section .expo .tu .tu1 {
   width: 100%;
@@ -192,90 +270,7 @@ body,
   margin-left: 0.5rem;
 }
 .wsy #wrap .footer1 div:nth-child(1) {
-  border-right: 1px solid #ccc ;
-}
-.dingwei {
-  width: 100%;
-  height: auto;
-  background: none;
-  position: absolute;
-  left: 0;
-  bottom: 2px;
-}
-.dingwei .dl {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-orient: horizontal;
-  padding: 0 1rem;
-  box-sizing: border-box;
-}
-.dingwei .dl dt {
-  padding-top: 1rem;
-  box-sizing: border-box;
-}
-.dingwei .dl dt img {
-  width: 4rem;
-  height: auto;
-  background: none;
-  vertical-align: middle;
-}
-.dingwei .dl dd {
-  -webkit-box-flex: 1;
-  padding-left: 1rem;
-  box-sizing: border-box;
-  color: #fff;
-}
-.dingwei .dl dd h2 {
-  padding-top: 1rem;
-  box-sizing: border-box;
-  font-size: 1.4rem ;
-}
-.dingwei .dl dd h2 span {
-  margin-left: 1rem;
-  display: inline-block;
-  padding: 0.1rem 0.3rem;
-  box-sizing: border-box;
-  background: #FF7E1C;
-  border: 1px solid #FF540C;
-  border-radius: 0.25rem ;
-  color: #fff;
-}
-.dingwei .dl dd p img {
-  width: 1rem;
-  height: auto;
-  background: none;
-}
-.dingwei .dl dd p{
-	background: none;
-}
-.dingwei .dl dd p span {
-  float: right;
-  padding: 0.1rem 0.3rem;
-  box-sizing: border-box;
-  background: #FF540C;
-  border: 1px solid #FF540C;
-  border-radius: 0.25rem ;
-  color: #fff;
-}
-.bottom {
-  width: 100%;
-  height: auto;
-  background: #ffffff;
-  opacity: 0.6;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-orient: horizontal;
-}
-.bottom dl {
-  text-align: center;
-  padding: 0.5rem 0;
-  box-sizing: border-box;
-  -webkit-box-flex: 1;
-}
-.bottom dl img {
-  width: 2rem;
-  height: auto;
-  background: none;
+  border-right: 1px solid #ccc;
 }
 .expo3 {
   width: 100%;
@@ -324,11 +319,11 @@ footer {
   width: 100%;
   height: 5rem;
   background: none;
-  border-top: 1px solid red ;
+  border-top: 1px solid red;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   box-sizing: border-box;
 }
 footer div {
@@ -337,8 +332,8 @@ footer div {
   line-height: 3rem;
 }
 footer div:nth-child(1) {
-  border-right: 1px solid #ccc ;
+  border-right: 1px solid #ccc;
 }
 footer div:nth-child(2) {
-  border-right: 1px solid #ccc ;
+  border-right: 1px solid #ccc;
 }

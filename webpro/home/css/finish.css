@@ -26,9 +26,9 @@ a {
 html {
   font-size: 62.5%;
 }
-html,
+#wrap,
 body,
-#wrap {
+html {
   width: 100%;
   height: 100%;
   background: none;
@@ -77,9 +77,9 @@ body,
   padding: 1.2rem;
   box-sizing: border-box;
   border-bottom: 1px solid #ccc;
-  border-radius: 5px 5px 0 0 ;
+  border-radius: 5px 5px 0 0;
   font-size: 1.4rem;
-  font-weight: bold ;
+  font-weight: bold;
 }
 .wsy #wrap .zhe1 .zhe1_1 .zhe1_1_ {
   display: -webkit-box;
@@ -87,7 +87,7 @@ body,
   -webkit-box-orient: horizontal;
   text-align: center;
   background: #fff;
-  border-radius: 0 0 5px 5px ;
+  border-radius: 0 0 5px 5px;
 }
 .wsy #wrap .zhe1 .zhe1_1 .zhe1_1_ h1 {
   -webkit-box-flex: 1;
@@ -111,30 +111,31 @@ body,
   border-bottom: 1px solid #ccc;
   line-height: 4.4rem;
   font-size: 1.7rem;
-  font-weight: bold ;
+  font-weight: bold;
   padding: 0 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap header .left,
 .wsy #wrap header .right {
-  width: 8rem;
+  width: 6rem;
   height: auto;
   background: none;
 }
-.wsy #wrap header .left img,
 .wsy #wrap header .right img {
   width: auto;
   height: 2rem;
   background: none;
   vertical-align: middle;
 }
+.wsy #wrap header .left {
+  width: 6rem;
+  height: auto;
+  background: none;
+}
 .wsy #wrap header .right {
   text-align: right;
 }
 .wsy #wrap header .right a {
-  padding-right: 1rem;
-  box-sizing: border-box;
-  font-weight: initial ;
+  font-weight: initial;
   color: #000;
   font-size: 1.5rem;
 }
@@ -195,8 +196,8 @@ body,
   height: auto;
   background: #e4e4e4;
   border: 1px solid #ccc;
-  border-radius: 0.25rem ;
-  padding: 0.5rem ;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
   box-sizing: border-box;
 }
 .wsy #wrap section .sousuo .sou img {
@@ -247,7 +248,7 @@ body,
   box-sizing: border-box;
 }
 .wsy #wrap section .banner dl dd h2 {
-  padding: 0.7rem 0 0.6rem 0;
+  padding: 0.7rem 0 0.6rem;
   font-size: 1.6rem;
   color: #FF7E1C;
 }
@@ -264,7 +265,7 @@ body,
   box-sizing: border-box;
   background: #FF7E1C;
   border: 1px solid #FF540C;
-  border-radius: 0.25rem ;
+  border-radius: 0.25rem;
 }
 .wsy #wrap section .banner dl dd p:nth-child(2) {
   padding: 0.2rem 0;
@@ -302,7 +303,7 @@ body,
   box-sizing: border-box;
 }
 .wsy #wrap section .banner1 dl dd h2 {
-  padding: 0.7rem 0 0.6rem 0;
+  padding: 0.7rem 0 0.6rem;
   font-size: 1.6rem;
   color: #FF7E1C;
 }
@@ -319,7 +320,7 @@ body,
   box-sizing: border-box;
   color: #FF540C;
   border: 1px solid #FF540C;
-  border-radius: 0.25rem ;
+  border-radius: 0.25rem;
 }
 .wsy #wrap section .banner1 dl dd p:nth-child(2) {
   padding: 0.2rem 0;
@@ -354,23 +355,22 @@ body,
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
-  line-height: 5rem;
   text-align: center;
   font-size: 1.6rem;
 }
-.wsy #wrap .footer1 div {
+.wsy #wrap .footer1 > div {
   -webkit-box-flex: 1;
   border-top: 1px solid #ccc;
 }
-.wsy #wrap .footer1 img {
+.wsy #wrap .footer1 > div img {
   width: auto;
   height: 2rem;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap .footer1 b {
+.wsy #wrap .footer1 > div b {
   margin-left: 0.5rem;
 }
 .wsy #wrap .footer1 div:nth-child(1) {
-  border-right: 1px solid #ccc ;
+  border-right: 1px solid #ccc;
 }

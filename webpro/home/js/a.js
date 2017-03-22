@@ -1,5 +1,5 @@
-var myapp = angular.module("myApp", ['ui.router']);
-myapp.config(function ($stateProvider, $urlRouterProvider) {
+var  myApp = angular.module("myApp", ["ui.router"]);
+myApp.config(function ($stateProvider) {
 	$stateProvider
 
 		.state('expo1', {

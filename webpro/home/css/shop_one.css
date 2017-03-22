@@ -26,9 +26,9 @@ a {
 html {
   font-size: 62.5%;
 }
-html,
+#wrap,
 body,
-#wrap {
+html {
   width: 100%;
   height: 100%;
   background: none;
@@ -76,15 +76,15 @@ body,
 }
 #wrap .zhe1 .zhe1_1 p:nth-child(1) {
   border-bottom: 1px solid #ccc;
-  border-radius: 5px 5px 0 0 ;
+  border-radius: 5px 5px 0 0;
 }
 #wrap .zhe1 .zhe1_1 p:nth-child(2) {
   border-bottom: 1px solid #ccc;
-  border-radius: 0 0 5px 5px ;
+  border-radius: 0 0 5px 5px;
 }
 #wrap .zhe1 .zhe1_1 p:nth-child(3) {
   margin-top: 0.5rem;
-  border-radius: 5px ;
+  border-radius: 5px;
 }
 #wrap header {
   display: -webkit-box;
@@ -96,7 +96,7 @@ body,
   border-bottom: 1px solid #ccc;
   line-height: 4rem;
   font-size: 1.7rem;
-  font-weight: bold ;
+  font-weight: bold;
   padding: 0 1rem;
   box-sizing: border-box;
 }
@@ -160,15 +160,15 @@ body,
 }
 #wrap section .top .p b {
   color: #ccc;
-  font-weight: initial ;
+  font-weight: initial;
 }
 #wrap section .top .p span:nth-child(1) {
   display: inline-block;
-  background: #679dff ;
+  background: #679dff;
   padding: 0.1rem;
   box-sizing: border-box;
   border: 1px solid #679dff;
-  border-radius: 50% ;
+  border-radius: 50%;
   margin-right: 0.5rem;
 }
 #wrap section .top .p span:nth-child(1) img {
@@ -197,7 +197,7 @@ body,
   background: none;
   padding: 1rem;
   font-size: 1.5rem;
-  font-weight: bold ;
+  font-weight: bold;
   border-bottom: 1px solid #ccc;
 }
 #wrap section .top1 .top1_ {
