@@ -26,9 +26,9 @@ a {
 html {
   font-size: 62.5%;
 }
-html,
+#wrap,
 body,
-#wrap {
+html {
   width: 100%;
   height: 100%;
   background: none;
@@ -76,15 +76,15 @@ body,
 }
 #wrap .zhe1 .zhe1_1 p:nth-child(1) {
   border-bottom: 1px solid #ccc;
-  border-radius: 5px 5px 0 0 ;
+  border-radius: 5px 5px 0 0;
 }
 #wrap .zhe1 .zhe1_1 p:nth-child(2) {
   border-bottom: 1px solid #ccc;
-  border-radius: 0 0 5px 5px ;
+  border-radius: 0 0 5px 5px;
 }
 #wrap .zhe1 .zhe1_1 p:nth-child(3) {
   margin-top: 0.5rem;
-  border-radius: 5px ;
+  border-radius: 5px;
 }
 #wrap header {
   display: -webkit-box;
@@ -96,13 +96,13 @@ body,
   border-bottom: 1px solid #ccc;
   line-height: 4rem;
   font-size: 1.7rem;
-  font-weight: bold ;
+  font-weight: bold;
   padding: 0 1rem;
   box-sizing: border-box;
 }
 #wrap header .left,
 #wrap header .right {
-  width: 4rem;
+  width: 6rem;
   height: auto;
   background: none;
 }
@@ -140,8 +140,8 @@ body,
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
   border: 1px solid #CCCCCC;
-  border-left: none ;
-  border-right: none ;
+  border-left: none;
+  border-right: none;
 }
 #wrap section .change .left {
   width: 100%;
@@ -160,7 +160,7 @@ body,
   width: 100%;
   height: 100%;
   background: none;
-  font-size: 1.6rem ;
+  font-size: 1.6rem;
   outline: none;
   border: none;
 }
@@ -170,7 +170,7 @@ body,
   box-sizing: border-box;
 }
 #wrap section .change .right b {
-  font-weight: initial ;
+  font-weight: initial;
   font-size: 1.6rem;
 }
 #wrap section .btnn {
@@ -187,15 +187,15 @@ body,
   font-size: 1.7rem;
   color: #fff;
   border: 1px solid #FF7F1D;
-  border-radius: 0.25rem ;
+  border-radius: 0.25rem;
   padding: 0.4rem 0;
   box-sizing: border-box;
 }
 .change1 {
   margin-top: 0.3rem;
   border: 1px solid #ccc;
-  border-left: none ;
-  border-right: none ;
+  border-left: none;
+  border-right: none;
   background: #fff;
 }
 .change1 .change1_ {
@@ -224,7 +224,7 @@ body,
   width: 100%;
   height: 100%;
   background: none;
-  font-size: 1.6rem ;
+  font-size: 1.6rem;
   outline: none;
   border: none;
 }
@@ -234,7 +234,7 @@ body,
   box-sizing: border-box;
 }
 .change1 .change1_ .right b {
-  font-weight: initial ;
+  font-weight: initial;
   font-size: 1.6rem;
 }
 .change1 .change_2 {
@@ -247,7 +247,7 @@ body,
   width: 100%;
   height: 100%;
   background: none;
-  font-size: 1.6rem ;
+  font-size: 1.6rem;
   outline: none;
   border: none;
 }

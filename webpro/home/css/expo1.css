@@ -33,12 +33,12 @@ html {
   height: 100%;
   background: none;
 }
-.wsy #wrap {
+#wrap {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   position: relative;
 }
-.wsy #wrap .zhe {
+#wrap .zhe {
   width: 100%;
   height: 100%;
   background: #000000;
@@ -48,7 +48,7 @@ html {
   top: 0;
   left: 0;
 }
-.wsy #wrap .zhe1 {
+#wrap .zhe1 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -57,7 +57,7 @@ html {
   background: none;
   display: none;
 }
-.wsy #wrap .zhe1 .zhe1_1 {
+#wrap .zhe1 .zhe1_1 {
   padding: 0 1rem;
   box-sizing: border-box;
   text-align: center;
@@ -68,12 +68,12 @@ html {
   bottom: 0.5rem;
   left: 0;
 }
-.wsy #wrap .zhe1 .zhe1_1 p {
+#wrap .zhe1 .zhe1_1 p {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap .zhe1 .zhe1_1 p:nth-child(1) {
+#wrap .zhe1 .zhe1_1 p:nth-child(1) {
   padding: 1.2rem;
   box-sizing: border-box;
   border-bottom: 1px solid #ccc;
@@ -81,7 +81,7 @@ html {
   font-size: 1.4rem;
   font-weight: bold;
 }
-.wsy #wrap .zhe1 .zhe1_1 p:nth-child(2) {
+#wrap .zhe1 .zhe1_1 p:nth-child(2) {
   margin-top: 0.5rem;
   padding: 1.2rem;
   box-sizing: border-box;
@@ -90,7 +90,7 @@ html {
   font-weight: bold;
   border-radius: 5px;
 }
-.wsy #wrap header {
+#wrap header {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
@@ -101,55 +101,56 @@ html {
   line-height: 4.4rem;
   font-size: 1.7rem;
   font-weight: bold;
-  padding: 0 1rem;
-  box-sizing: border-box;
 }
-.wsy #wrap header .left,
-.wsy #wrap header .right {
+#wrap header .left,
+#wrap header .right {
   width: 8rem;
   height: auto;
   background: none;
 }
-.wsy #wrap header .left img,
-.wsy #wrap header .right img {
+#wrap header .left img,
+#wrap header .right img {
   width: auto;
   height: 2rem;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap header .right {
-  text-align: right;
+#wrap header .right {
+  width: 8rem;
+  height: auto;
+  background: none;
+  text-align: left;
 }
-.wsy #wrap header .right a {
+#wrap header .right a {
   margin-left: 0.5rem;
 }
-.wsy #wrap header .right a img {
+#wrap header .right a img {
   width: auto;
   height: 1.7rem;
   background: none;
 }
-.wsy #wrap header h2 {
+#wrap header h2 {
   -webkit-box-flex: 1;
   text-align: center;
   font-size: 2rem;
 }
-.wsy #wrap section {
+#wrap section {
   -webkit-box-flex: 1;
   overflow: auto;
   background: #f2f2f2;
 }
-.wsy #wrap section .expo {
+#wrap section .expo {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap section .expo .tu {
+#wrap section .expo .tu {
   width: 100%;
   height: auto;
   background: #ffffff;
   position: relative;
 }
-.wsy #wrap section .expo .tu .dingwei {
+#wrap section .expo .tu .dingwei {
   width: 100%;
   height: auto;
   background: none;
@@ -157,59 +158,53 @@ html {
   left: 0;
   bottom: 2px;
 }
-.wsy #wrap section .expo .tu .dingwei .dl {
+#wrap section .expo .tu .dingwei .dl {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dt {
-  padding-top: 1rem;
+#wrap section .expo .tu .dingwei .dl dt {
+  padding-top: 0.5rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dt img {
+#wrap section .expo .tu .dingwei .dl dt img {
   width: 4rem;
   height: auto;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dd {
+#wrap section .expo .tu .dingwei .dl dd {
   -webkit-box-flex: 1;
   padding-left: 1rem;
   box-sizing: border-box;
   color: #fff;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dd h2 {
-  padding-top: 1rem;
-  box-sizing: border-box;
+#wrap section .expo .tu .dingwei .dl dd h2 {
   font-size: 1.4rem;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dd h2 span {
+#wrap section .expo .tu .dingwei .dl dd h2 span {
   margin-left: 1rem;
   display: inline-block;
-  padding: 0.1rem 0.3rem;
-  box-sizing: border-box;
   background: #FF7E1C;
   border: 1px solid #FF540C;
   border-radius: 0.25rem;
   color: #fff;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dd p img {
+#wrap section .expo .tu .dingwei .dl dd p img {
   width: 1rem;
   height: auto;
   background: none;
 }
-.wsy #wrap section .expo .tu .dingwei .dl dd p span {
+#wrap section .expo .tu .dingwei .dl dd p span {
   float: right;
-  padding: 0.1rem 0.3rem;
-  box-sizing: border-box;
   background: #FF540C;
   border: 1px solid #FF540C;
   border-radius: 0.25rem;
   color: #fff;
 }
-.wsy #wrap section .expo .tu .dingwei .bottom {
+#wrap section .expo .tu .dingwei .bottom {
   width: 100%;
   height: auto;
   background: #ffffff;
@@ -218,33 +213,33 @@ html {
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
 }
-.wsy #wrap section .expo .tu .dingwei .bottom dl {
+#wrap section .expo .tu .dingwei .bottom dl {
   text-align: center;
   padding: 0.5rem 0;
   box-sizing: border-box;
   -webkit-box-flex: 1;
 }
-.wsy #wrap section .expo .tu .dingwei .bottom dl img {
+#wrap section .expo .tu .dingwei .bottom dl img {
   width: 2rem;
   height: auto;
   background: none;
 }
-.wsy #wrap section .expo .tu .tu1 {
+#wrap section .expo .tu .tu1 {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap section .expo2 {
+#wrap section .expo2 {
   width: 100%;
   height: auto;
   background: none;
 }
-.wsy #wrap section .expo2 img {
+#wrap section .expo2 img {
   width: 100%;
   height: auto;
   background: none;
 }
-.wsy #wrap .footer1 {
+#wrap .footer1 {
   width: 100%;
   height: 5.2rem;
   background: none;
@@ -256,20 +251,20 @@ html {
   text-align: center;
   font-size: 1.6rem;
 }
-.wsy #wrap .footer1 div {
+#wrap .footer1 div {
   -webkit-box-flex: 1;
   border-top: 1px solid #ccc;
 }
-.wsy #wrap .footer1 img {
+#wrap .footer1 img {
   width: auto;
   height: 2rem;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap .footer1 b {
+#wrap .footer1 b {
   margin-left: 0.5rem;
 }
-.wsy #wrap .footer1 div:nth-child(1) {
+#wrap .footer1 div:nth-child(1) {
   border-right: 1px solid #ccc;
 }
 .expo3 {

@@ -2,6 +2,10 @@
 a {
     text-decoration: none;
 }
+.boxy(@ver:vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
 .box {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -38,7 +42,7 @@ body,
 html {
     .whb(100%,100%,none);
 }
-.wsy {
+
     #wrap {
         .box;
         header {
@@ -49,19 +53,20 @@ html {
             line-height: 4.4rem;
             font-size: 1.6rem;
             font-weight: bold;
-            padding: 0 0.5rem;
-            box-sizing: border-box;
+//          padding: 0 0.5rem;
+//          box-sizing: border-box;
             .left,
             .right {
-                .whb(4rem,auto,none);
+                 text-align: center;
+                .whb(3rem,auto,none);
                 img {
                     .whb(auto,2rem,none);
                     vertical-align: middle;
                 }
             }
             .right {
-                 .whb(3rem,auto,none);
-                text-align: right;
+                 .whb(5rem,auto,none);
+                text-align: center;
             }
             h2 {
                 .box_1;
@@ -76,8 +81,8 @@ html {
                 p {
                     background: #fff;
                     border-bottom: 1px solid #ccc;
-                    font-size: 1.5rem;
-                    padding: 0 1rem;
+                    font-size: 1.3rem;
+                    padding: 0 0.5rem;
                     line-height: 3.8rem;
                     color: #262626;
                     a {
@@ -107,29 +112,35 @@ html {
             }
 
         }
-        footer {
-            .whb(100%,4.7rem,none);
-            border-top: 1px solid #ccc;
-            .box;
-            .boxx;
-            dl {
+        footer{ 
+            .whb(100%,5rem,#fff);
+            border-top: 1px solid #bfbfbf;
+            
+            .boxy(horizontal);
+            dl{
                 text-align: center;
-                .box_1;
-                img {
-                    .whb(auto,2rem,none);
+                .box; 
+                -webkit-box-flex: 1;
+                dt{
+                    margin-top: 0.5rem;
+                    img {
+                        .whb(auto,2.2rem,none);
+                    }
+                }
+                dd{
+                    color: #989898;
+                }
+                .dd_color{
+                    color: #ff7f1d;
                 }
             }
-            .dl {
-                dt {
-                    //                       padding:1rem;
-                    box-sizing: border-box;
-                    border: 1px solid #FF7F1D; //               margin-top: 0.25rem;
-                    border-radius: 10px;
-                    font-size: 3.5rem;
-                    color: #fff;
-                    .whb(100%,auto,#ff7f1d);
+            .div { 
+                padding-top: 0.5rem;
+                box-sizing: border-box;
+                img{
+                    .whb(auto,3rem,none);
                 }
             }
         }
     }
-}
+

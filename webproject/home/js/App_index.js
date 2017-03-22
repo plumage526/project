@@ -62,9 +62,62 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
             templateUrl: "shop_order_detail.html"
         })
          .state("webpro_index", {
-            url:"webpro_index",
-            templateUrl: "pro_index.html"
+            url:"pro_index",
+            templateUrl: "../../webpro/home/pro_index.html"
         })
+         
+         .state('expo1', {
+			url: 'expo1',
+			templateUrl: '../../webpro/home/expo1.html'
+		})
+		.state('finish', {
+			url: 'finish',
+			templateUrl: '../../webpro/home/finish.html'
+		})
+		.state('zuopinku', {
+			url: 'zuopinku',
+			templateUrl: '../../webpro/home/zuopinku.html'
+		})
+		.state('return4', {
+			url: 'pro_index',
+			templateUrl: '../../webpro/home/pro_index.html'
+		})
+		.state('shop_one', {
+			url: 'shop_one',
+			templateUrl: '../../webpro/home/shop_one.html'
+		})
+		.state('finish2', {
+			url: 'finish2',
+			templateUrl: '../../webpro/home/finish2.html'
+		})
+		.state('return1',{
+			url: 'return1',
+			templateUrl: '../../webpro/home/expo1.html'
+		})
+		.state('shop_name', {
+			url: 'shop_name',
+			templateUrl: '../../webpro/home/shop_name.html'
+		})
+		.state('return3', {
+			url: 'return3',
+			templateUrl: '../../webpro/home/shop_one.html'
+		})
+		.state('shop_sex', {
+			url: 'shop_sex',
+			templateUrl: '../../webpro/home/shop_sex.html'
+		})
+		.state('shop_seat', {
+			url: 'shop_seat',
+			templateUrl: '../../webpro/home/shop_seat.html'
+		})
+		.state('shop_const', {
+			url: 'shop_const',
+			templateUrl: '../../webpro/home/shop_const.html'
+		})
+		.state('shop_er', {
+			url: 'shop_er',
+			templateUrl: '../../webpro/home/shop_er.html'
+		})
          
          
          

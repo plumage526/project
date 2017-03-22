@@ -221,14 +221,14 @@ html {
 }
 .yxd .wrap footer {
   width: 100%;
-  height: 5rem;
+  height: 5.2rem;
   background: #ffffff;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
 .yxd .wrap footer .foot_left {
   -webkit-box-flex: 1;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 5rem;
 }
 .yxd .wrap footer .foot_left span {

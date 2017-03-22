@@ -101,8 +101,6 @@ html {
   line-height: 4.4rem;
   font-size: 1.7rem;
   font-weight: bold;
-  padding: 0 1rem;
-  box-sizing: border-box;
 }
 .wsy #wrap header .left,
 .wsy #wrap header .right {
@@ -118,7 +116,10 @@ html {
   vertical-align: middle;
 }
 .wsy #wrap header .right {
-  text-align: right;
+  width: 8rem;
+  height: auto;
+  background: none;
+  text-align: left;
 }
 .wsy #wrap header .right a {
   font-weight: initial;

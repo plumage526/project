@@ -33,12 +33,12 @@ html {
   height: 100%;
   background: none;
 }
-.wsy #wrap {
+#wrap {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   position: relative;
 }
-.wsy #wrap .zhe {
+#wrap .zhe {
   width: 100%;
   height: 100%;
   background: #000000;
@@ -48,7 +48,7 @@ html {
   top: 0;
   left: 0;
 }
-.wsy #wrap .zhe1 {
+#wrap .zhe1 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -57,7 +57,7 @@ html {
   background: none;
   display: none;
 }
-.wsy #wrap .zhe1 .zhe1_1 {
+#wrap .zhe1 .zhe1_1 {
   padding: 0 4rem;
   box-sizing: border-box;
   text-align: center;
@@ -68,12 +68,12 @@ html {
   top: 35%;
   left: 0;
 }
-.wsy #wrap .zhe1 .zhe1_1 p {
+#wrap .zhe1 .zhe1_1 p {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap .zhe1 .zhe1_1 p:nth-child(1) {
+#wrap .zhe1 .zhe1_1 p:nth-child(1) {
   padding: 1.2rem;
   box-sizing: border-box;
   border-bottom: 1px solid #ccc;
@@ -81,7 +81,7 @@ html {
   font-size: 1.4rem;
   font-weight: bold;
 }
-.wsy #wrap .zhe1 .zhe1_1 .zhe1_1_ {
+#wrap .zhe1 .zhe1_1 .zhe1_1_ {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
@@ -89,19 +89,19 @@ html {
   background: #fff;
   border-radius: 0 0 5px 5px;
 }
-.wsy #wrap .zhe1 .zhe1_1 .zhe1_1_ h1 {
+#wrap .zhe1 .zhe1_1 .zhe1_1_ h1 {
   -webkit-box-flex: 1;
   padding: 1rem 0;
   box-sizing: border-box;
 }
-.wsy #wrap .zhe1 .zhe1_1 .zhe1_1_ h1 button {
+#wrap .zhe1 .zhe1_1 .zhe1_1_ h1 button {
   background: none;
   border: none;
   outline: none;
   color: #679DFF;
   font-size: 1.8rem;
 }
-.wsy #wrap header {
+#wrap header {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
@@ -112,39 +112,40 @@ html {
   line-height: 4.4rem;
   font-size: 1.7rem;
   font-weight: bold;
-  padding: 0 1rem;
-  box-sizing: border-box;
 }
-.wsy #wrap header .right {
-  width: 6rem;
+#wrap header .left， .right {
+  width: 8rem;
   height: auto;
   background: none;
 }
-.wsy #wrap header .right img {
+#wrap header .left， .right img {
   width: auto;
   height: 2rem;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap header .left {
-  width: 6rem;
+#wrap header .left {
+  width: 8rem;
   height: auto;
   background: none;
 }
-.wsy #wrap header .right {
-  text-align: right;
+#wrap header .right {
+  width: 8rem;
+  height: auto;
+  background: none;
+  text-align: left;
 }
-.wsy #wrap header .right a {
+#wrap header .right a {
   font-weight: initial;
   color: #000;
   font-size: 1.5rem;
 }
-.wsy #wrap header h2 {
+#wrap header h2 {
   -webkit-box-flex: 1;
   text-align: center;
   font-size: 2rem;
 }
-.wsy #wrap .finish_nav {
+#wrap .finish_nav {
   width: 100%;
   height: auto;
   background: #ffffff;
@@ -153,42 +154,42 @@ html {
   -webkit-box-orient: horizontal;
   border-bottom: 1px solid #ccc;
 }
-.wsy #wrap .finish_nav dl {
+#wrap .finish_nav dl {
   text-align: center;
   -webkit-box-flex: 1;
   overflow: hidden;
   font-size: 1.4rem;
 }
-.wsy #wrap .finish_nav dl dt {
+#wrap .finish_nav dl dt {
   padding-top: 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap .finish_nav .fin_nav {
+#wrap .finish_nav .fin_nav {
   width: 5rem;
   height: 5rem;
   background: none;
   text-align: center;
   line-height: 5rem;
 }
-.wsy #wrap .finish_nav .fin_nav img {
+#wrap .finish_nav .fin_nav img {
   width: 2.1rem;
   height: auto;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap section {
+#wrap section {
   -webkit-box-flex: 1;
   overflow: auto;
   background: #f2f2f2;
 }
-.wsy #wrap section .sousuo {
+#wrap section .sousuo {
   width: 100%;
   height: auto;
   background: #ffffff;
   padding: 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .sousuo .sou {
+#wrap section .sousuo .sou {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
@@ -200,18 +201,18 @@ html {
   padding: 0.5rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .sousuo .sou img {
+#wrap section .sousuo .sou img {
   width: 2rem;
   height: auto;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap section .sousuo .sou .sou1 {
+#wrap section .sousuo .sou .sou1 {
   -webkit-box-flex: 1;
   padding-left: 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .sousuo .sou .sou1 input {
+#wrap section .sousuo .sou .sou1 input {
   width: 100%;
   height: auto;
   background: none;
@@ -219,44 +220,44 @@ html {
   border: none;
   outline: none;
 }
-.wsy #wrap section .banner {
+#wrap section .banner {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap section .banner .finish2 h2 {
+#wrap section .banner .finish2 h2 {
   visibility: hidden;
 }
-.wsy #wrap section .banner .finish2 strong {
+#wrap section .banner .finish2 strong {
   visibility: hidden;
 }
-.wsy #wrap section .banner dl {
+#wrap section .banner dl {
   padding: 0.7rem 1rem;
   box-sizing: border-box;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
 }
-.wsy #wrap section .banner dl img {
+#wrap section .banner dl img {
   width: 7.2rem;
   height: auto;
   background: none;
 }
-.wsy #wrap section .banner dl dd {
+#wrap section .banner dl dd {
   -webkit-box-flex: 1;
   padding-left: 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .banner dl dd h2 {
+#wrap section .banner dl dd h2 {
   padding: 0.7rem 0 0.6rem;
   font-size: 1.6rem;
   color: #FF7E1C;
 }
-.wsy #wrap section .banner dl dd strong {
+#wrap section .banner dl dd strong {
   color: #ccc;
   font-size: 1.5rem;
 }
-.wsy #wrap section .banner dl dd span {
+#wrap section .banner dl dd span {
   float: right;
   display: inline-block;
   margin-left: 1rem;
@@ -267,51 +268,51 @@ html {
   border: 1px solid #FF540C;
   border-radius: 0.25rem;
 }
-.wsy #wrap section .banner dl dd p:nth-child(2) {
+#wrap section .banner dl dd p:nth-child(2) {
   padding: 0.2rem 0;
   box-sizing: border-box;
 }
-.wsy #wrap section .banner2 {
+#wrap section .banner2 {
   margin-top: 0.5rem;
 }
-.wsy #wrap section .banner1 {
+#wrap section .banner1 {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap section .banner1 .finish2 h2 {
+#wrap section .banner1 .finish2 h2 {
   visibility: hidden;
 }
-.wsy #wrap section .banner1 .finish2 strong {
+#wrap section .banner1 .finish2 strong {
   visibility: hidden;
 }
-.wsy #wrap section .banner1 dl {
+#wrap section .banner1 dl {
   padding: 0.7rem 1rem;
   box-sizing: border-box;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-orient: horizontal;
 }
-.wsy #wrap section .banner1 dl img {
+#wrap section .banner1 dl img {
   width: 7.2rem;
   height: auto;
   background: none;
 }
-.wsy #wrap section .banner1 dl dd {
+#wrap section .banner1 dl dd {
   -webkit-box-flex: 1;
   padding-left: 1rem;
   box-sizing: border-box;
 }
-.wsy #wrap section .banner1 dl dd h2 {
+#wrap section .banner1 dl dd h2 {
   padding: 0.7rem 0 0.6rem;
   font-size: 1.6rem;
   color: #FF7E1C;
 }
-.wsy #wrap section .banner1 dl dd strong {
+#wrap section .banner1 dl dd strong {
   color: #ccc;
   font-size: 1.5rem;
 }
-.wsy #wrap section .banner1 dl dd span {
+#wrap section .banner1 dl dd span {
   float: right;
   display: inline-block;
   margin-right: 1rem;
@@ -322,34 +323,34 @@ html {
   border: 1px solid #FF540C;
   border-radius: 0.25rem;
 }
-.wsy #wrap section .banner1 dl dd p:nth-child(2) {
+#wrap section .banner1 dl dd p:nth-child(2) {
   padding: 0.2rem 0;
   box-sizing: border-box;
 }
-.wsy #wrap section .expo {
+#wrap section .expo {
   width: 100%;
   height: auto;
   background: #ffffff;
   margin-top: 0.5rem;
 }
-.wsy #wrap section .expo p {
-  padding: 0.7rem 1rem;
+#wrap section .expo p {
+  padding: 0.5rem 1rem;
   box-sizing: border-box;
   font-size: 1.8rem;
 }
-.wsy #wrap section .expo .tu {
+#wrap section .expo .tu {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap section .expo .tu img {
+#wrap section .expo .tu img {
   width: 100%;
   height: auto;
   background: #ffffff;
 }
-.wsy #wrap .footer1 {
+#wrap .footer1 {
   width: 100%;
-  height: 5.2rem;
+  height: 4rem;
   background: none;
   border-top: 1px solid #ccc;
   display: -webkit-box;
@@ -358,19 +359,19 @@ html {
   text-align: center;
   font-size: 1.6rem;
 }
-.wsy #wrap .footer1 > div {
+#wrap .footer1 > div {
   -webkit-box-flex: 1;
   border-top: 1px solid #ccc;
 }
-.wsy #wrap .footer1 > div img {
+#wrap .footer1 > div img {
   width: auto;
   height: 2rem;
   background: none;
   vertical-align: middle;
 }
-.wsy #wrap .footer1 > div b {
+#wrap .footer1 > div b {
   margin-left: 0.5rem;
 }
-.wsy #wrap .footer1 div:nth-child(1) {
+#wrap .footer1 div:nth-child(1) {
   border-right: 1px solid #ccc;
 }

@@ -183,8 +183,12 @@ html {
 .yxd .wrap footer dl .dd_color {
   color: #ff7f1d;
 }
+.yxd .wrap footer .div {
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
 .yxd .wrap footer .div img {
   width: auto;
-  height: 4rem;
+  height: 3rem;
   background: none;
 }

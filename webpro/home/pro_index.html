@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>我的店铺首页</title>
-    <link rel="stylesheet" type="text/css" href="css/dsy.css"/>
+    <link rel="stylesheet" type="text/css" href="../"/>
   	<link rel="stylesheet" type="text/css" href="css/finish.css"/>
   	<link rel="stylesheet" type="text/css" href="css/expo.css"/>
   	<link rel="stylesheet" type="text/css" href="css/expo1.css"/>
-   <script src="js/angular-1.3.0.js"></script>
-   <script src="js/angular-ui-router.min.js"></script>
+	<script src="../../webproject/home/js/angular-route.min.js"></script>
+	<script src="../../webproject/home/js/angular.js"></script>
     
     
-     <script src="js/a.js"></script>
+     <script src="../../webproject/home/js/App_index.js"></script>
      <script src="js/jquery-3.1.1.js"></script>
-   <script src="js/shop_one.js"></script>
+
   
 </head>
-<body class="wsy" ui-view>
+<body ui-view>
  <div id="wrap">
  	<header>
  		<div class="left">
- 			<img src="img/e_03.jpg"/>
- 			<!--<img src="img/e_03.jpg"/>-->
+ 			<img src="../../webproject/home/images/img/register_03.gif" ui-sref="return"/>
+ 			
  		</div>
  		<h2>我的店铺</h2>
  		<div class="right">
@@ -43,31 +43,26 @@
  		</div>
  	</section>
  	<footer>
- 		<dl>
- 			<dt><img src="img/e_25.jpg"/></dt>
- 			<dd>首页</dd>
- 		</dl>
- 		<dl>
- 			<dt><img src="img/e_27.jpg"/></dt>
- 			<dd>优橙协助</dd>
- 		</dl>
- 		<dl class="dl">
- 			<dt>+</dt>
- 			<dd></dd>
- 		</dl>
- 		<dl>
- 			<dt><img src="img/e_30.jpg"/></dt>
- 			<dd>订单状态</dd>
- 		</dl>
- 		<dl>
- 			<dt><img src="img/e_32.jpg"/></dt>
- 			<dd>我的店铺</dd>
- 		</dl>
- 	</footer>
+				<dl ui-sref="index">
+					<dt><img src="images/index_10.gif"/></dt>
+					<dd>首页</dd>
+				</dl>
+				<dl ui-sref="help">
+					<dt><img src="images/index_18.gif"/></dt>
+					<dd>优橙协助</dd>
+				</dl>
+				<div class="div"><img src="images/index_12.gif" /></div>
+				<dl ui-sref="shop_order">
+					<dt><img src="images/index_05.gif"/></dt>
+					<dd>订单状态</dd>
+				</dl>
+				<dl ui-sref="webpro_index">
+					<dt><img src="images/index_15.gif"/></dt>
+					<dd>我的店铺</dd>
+				</dl>
+			</footer>
  </div>
- <script type="text/javascript">
-
- </script>
+ 
 	
 </body>
 </html>

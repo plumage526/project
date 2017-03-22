@@ -37,7 +37,7 @@ html {
 }
 .yxd .wrap header .head_left {
   text-align: center;
-  width: 3rem;
+  width: 4rem;
   height: 4rem;
   background: none;
 }
@@ -56,8 +56,8 @@ html {
   font-weight: bold;
 }
 .yxd .wrap header .head_right {
-  text-align: center;
-  width: 3rem;
+  text-align: left;
+  width: 4rem;
   height: 4rem;
   background: none;
 }
@@ -307,7 +307,7 @@ html {
   -webkit-box-flex: 1;
 }
 .yxd .wrap footer dl dt {
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
 }
 .yxd .wrap footer dl dt img {
   width: auto;
@@ -320,8 +320,12 @@ html {
 .yxd .wrap footer dl .dd_color {
   color: #ff7f1d;
 }
+.yxd .wrap footer .div {
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
 .yxd .wrap footer .div img {
   width: auto;
-  height: 4rem;
+  height: 3rem;
   background: none;
 }
