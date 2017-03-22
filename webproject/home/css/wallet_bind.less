@@ -1,0 +1,157 @@
+@import url("reset.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver:vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.more{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.r {
+    position: relative;
+}
+.a {
+    position: absolute;
+}
+html,
+body,
+.wrap{
+    .whb(100%,100%,#f2f2f2);
+}
+html{
+    font-size: 62.5%;
+}
+.yxd{
+
+.wrap{
+        .box;
+         header {
+            border-bottom: 1px solid #bfbfbf;
+            .box(horizontal);
+            .whb(100%,4.4rem,#f7f7f7);
+            .head_left {
+                text-align: center;
+                .whb(3rem,4rem,none);
+                img {
+                    margin-top: 1.2rem;
+                    .whb(auto,1.8rem,none);
+                }
+            }
+            .head_center {
+                -webkit-box-flex: 1;
+                text-align: center;
+                line-height: 4.4rem;
+                font-size: 1.6rem;
+                color: #262626;
+                font-weight: bold;
+            }
+            .head_right {
+                text-align: center;
+                .whb(3rem,4rem,none);
+                img {
+                    margin-top: 1.2rem;
+                    .whb(auto,1.8rem,none);
+                }
+            }
+        }
+        section{
+            -webkit-box-flex: 1;
+            .list {
+                padding: 0 1.1rem;
+                box-sizing: border-box; //              border-bottom: 1px solid #cccccc;
+                .box;
+                .whb(100%,auto,#fff);
+                .input {
+                    font-size: 1.4rem;
+//                  padding: 1rem;
+//                  box-sizing: border-box;
+                    line-height: 3rem;
+                    .box(horizontal);
+                    .whb(100%,auto,#fff);
+                    .input_left{
+                        .whb(10rem,auto,none);
+                        
+                    }
+                    .input_right{
+                        -webkit-box-flex: 1;
+                        input{
+                            border: none;
+                            outline: none;
+                            .whb(100%,auto,none);
+                            line-height: 2rem;
+                        }
+                    }
+                }
+            }
+            .reg {
+                padding:0 0 0 1rem;
+                box-sizing: border-box;
+                 border-bottom: 1px solid #ccc;
+                 border-top: 1px solid #ccc;
+                .whb(100%,auto,#fff);
+                .box(horizontal);
+                line-height: 3.8rem;
+                .reg_left {
+                    font-size: 1.4rem;
+                   .whb(8rem,auto,#fff);
+//                  input {
+//                      
+//                      padding: 0 1.1rem;
+//                      box-sizing: border-box;
+//                      border: none;
+//                      border-bottom: 1px solid #cccccc;
+//                      border-top: 1px solid #cccccc;
+//                      line-height: 3.8rem;
+//                      .whb(100%,auto,#fff);
+//                      outline: none;
+//                      
+//                  }
+                }
+                .reg_center{
+                   
+                    -webkit-box-flex: 1;
+                    input{
+                            border: none;
+                            outline: none;
+                            .whb(100%,auto,none);
+                            line-height: 2rem;
+                        }
+                    .whb(100%,auto,#fff);
+                }
+                .reg_right{
+                    .whb(7.8rem,auto,#fff);
+                    text-align: center;
+                    line-height: 3.8rem;
+                    border-left: 1px solid #ccc;
+                    color: #333333;
+                }
+            }
+            .zhuyi{
+                .whb(100%,auto,none);
+                padding:1rem;
+                box-sizing: border-box;
+            }
+            .submit{
+                .whb(100%,auto,none);
+                line-height: 3rem;
+                padding: 1rem;
+                box-sizing: border-box;
+                p{
+                    .whb(100%,auto,#ff7f1d);
+                    text-align: center;
+                    color: #FFFFFF;
+                    font-size: 1.6rem;
+                    border-radius: 0.5rem;
+                }
+            }
+            
+        }
+    }
+        
+}

@@ -1,0 +1,168 @@
+@import url("reset.css");
+.more {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+html {
+  font-size: 62.5%;
+}
+.yxd .wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.yxd .wrap header {
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.4rem;
+  background: #f7f7f7;
+}
+.yxd .wrap header .head_left {
+  text-align: center;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+}
+.yxd .wrap header .head_left img {
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.yxd .wrap header .head_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.6rem;
+  color: #262626;
+  font-weight: bold;
+}
+.yxd .wrap header .head_right {
+  text-align: center;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+}
+.yxd .wrap header .head_right img {
+  margin-top: 1.2rem;
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.yxd .wrap section {
+  -webkit-box-flex: 1;
+}
+.yxd .wrap section .list {
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.yxd .wrap section .list .input {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.yxd .wrap section .list .input .input_left {
+  width: 10rem;
+  height: auto;
+  background: none;
+}
+.yxd .wrap section .list .input .input_right {
+  -webkit-box-flex: 1;
+}
+.yxd .wrap section .list .input .input_right input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: auto;
+  background: none;
+  line-height: 2rem;
+}
+.yxd .wrap section .reg {
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3.8rem;
+}
+.yxd .wrap section .reg .reg_left {
+  font-size: 1.4rem;
+  width: 8rem;
+  height: auto;
+  background: #ffffff;
+}
+.yxd .wrap section .reg .reg_center {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.yxd .wrap section .reg .reg_center input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: auto;
+  background: none;
+  line-height: 2rem;
+}
+.yxd .wrap section .reg .reg_right {
+  width: 7.8rem;
+  height: auto;
+  background: #ffffff;
+  text-align: center;
+  line-height: 3.8rem;
+  border-left: 1px solid #ccc;
+  color: #333333;
+}
+.yxd .wrap section .zhuyi {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.yxd .wrap section .submit {
+  width: 100%;
+  height: auto;
+  background: none;
+  line-height: 3rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.yxd .wrap section .submit p {
+  width: 100%;
+  height: auto;
+  background: #ff7f1d;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+}

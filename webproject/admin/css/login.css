@@ -1,0 +1,60 @@
+@import url("reset.css");
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+body,
+html,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+}
+body .back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+body .wrap {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  padding-top: 20%;
+  box-sizing: border-box;
+}
+body .wrap .mydiv {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  z-index: 999;
+  margin: 0 auto;
+  width: 30%;
+  height: 70%;
+  background: #ffffff;
+}
+body .wrap .mydiv .logo img {
+  width: 90%;
+  height: auto;
+  background: none;
+}
+body .wrap .mydiv .int {
+  padding-top: 2rem;
+  box-sizing: border-box;
+}
+body .wrap .mydiv .btn {
+  color: #fff;
+  margin-top: 2rem;
+  box-sizing: border-box;
+  background: #4c9cbd;
+}
