@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			body {
+				background: #f5f5f5;
+			}
+			
+			button {
+				background: #fff;
+				border: 1px solid #fff;
+				border: none;
+			}
+			
+			#juzhong {
+				width: 1366px;
+				margin: 0 auto;
+				background: #fff;
+			}
+			
+			.mydiv {
+				text-align: right;
+			}
+			.dropdown-menu {
+				float: right;
+				top: 100%;
+				right: 0;
+				left: initial;
+				text-align: center;
+			}
+			
+			.top1 {
+				background: #eeeeee;
+				width: 100%;
+				/*height: 113px;*/
+				color: #999999;
+				border-bottom: 3px solid #84929e;
+			}
+			
+			dl {
+				padding: 20px 0;
+			}
+			
+			.container {
+				/*width: 1366px;*/
+				/*text-align: center;*/
+				margin: 0 auto;
+			}
+			
+			.daohang {
+				width: 1366px;
+				margin: 0 auto;
+			}
+			
+			.active:hover {
+				background: #4c9cbd;
+				color: #fff;
+			}
+			
+			.active {
+				background: #4c9cbd;
+				color: #fff;
+			}
+			
+			.main {
+				width: 1366px;
+				margin: 0 auto;
+				height: 585px;
+				margin-top: 25px;
+			}
+			
+			.main_left {
+				/*border-right:1px solid #000000 ;*/
+				background: #cbcbcb;
+				height: 585px;
+				border-radius: 5px;
+				padding-top: 10px;
+			}
+			
+			.main_right {
+				/*border-bottom:1px solid #000000;*/
+				height: 585px;
+				padding-left: 25px;
+			}
+			
+			.btnn {
+				background: #fff;
+				color: #007AFF;
+			}
+			
+			.doo {
+				padding: 0;
+				margin: 0;
+				width: 100%;
+			}
+			
+			.doo button {
+				width: 100%;
+				background: #999999;
+			}
+			
+			.doo ul {
+				background: #d8d8d8;
+				width: 100%;
+			}
+			
+			.doo ul li {
+				width: 100%;
+				background: #d8d8d8;
+			}
+			
+			table {
+				margin: 30px 0 0 0;
+			}
+			
+			td {
+				height: 50px;
+			}
+			
+			.fenye {
+				width: 658px;
+				margin: 0 auto;
+			}
+			
+			.fenye li {
+				margin-right: 10px;
+			}
+			
+			.li {
+				margin-right: 0;
+			}
+			
+			.footer {
+				height: 235px;
+			}
+		</style>
+	
+	</head>
+
+	<body class="home-template">
+		<div class="row">
+			<img src="img/q_01.jpg" class="col-sm-12" />
+		</div>
+
+		<div id="juzhong">
+			<div class="dropdown text-right mydiv">
+				<span><img src="img/tou_03.jpg"/></span>
+				<button class="btn btn-default dropdown-toggle dropdown-menu-right" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    王率羽
+    <span class="caret"></span>
+  </button>
+				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<li>
+						<a href="#">袁鑫迪</a>
+					</li>
+					<li role="separator" class="divider"></li>
+					<li>
+						<a href="#">雷青云</a>
+					</li>
+					<li role="separator" class="divider"></li>
+					<li>
+						<a href="#">汤宇</a>
+					</li>
+					<li role="separator" class="divider"></li>
+					<li>
+						<a href="#">杨佳鹏</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="top1 text-center">
+			<div class="container">
+				<div class="daohang">
+					<dl class="nav navbar-nav active col-md-1">
+						<dt><img src="img/shouye2.gif" data-Src="img/shouye2.gif"/></dt>
+						<dd>首页</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_ruhui.gif" data-Src="img/ruhui2.gif"/></dt>
+						<dd>入会审批</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_yujing.gif" data-Src="img/yuqing2.gif"/></dt>
+						<dd>预警监督</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_yidai.gif" data-Src="img/yidai2.gif"/></dt>
+						<dd>一带一路</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_shanghui.gif" data-Src="img/shanghui2.gif"/></dt>
+						<dd>商会建设</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_xinyong.gif" data-Src="img/xinyong2.gif"/></dt>
+						<dd>信用报告</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_yuqing.gif" data-Src="img/yuqing2.gif"/></dt>
+						<dd>舆情监督</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_lianhe.gif" data-Src="img/lianhe2.gif"/></dt>
+						<dd>联合惩戒</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_duiwai.gif" data-Src="img/index_duiwai.gif"/></dt>
+						<dd>对外展示</dd>
+					</dl>
+					<dl class="nav navbar-nav col-md-1">
+						<dt><img src="img/index_yonghu.gif" data-Src="img/yonghu2.gif"/></dt>
+						<dd>用户中心</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="main row">
+			<div class="main_left col-lg-2">
+				<div class="dropdown doo">
+					<button type="button" class="btn dropdown-toggle butt" id="dropdownMenu1" data-toggle="dropdown">主题
+        <span class="caret"></span>
+    </button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">Java</a>
+						</li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+						</li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+						</li>
+						<li role="presentation" class="divider"></li>
+						
+					</ul>
+				</div>
+
+			</div>
+			<div class="main_right col-lg-10">
+
+				<div class="input-group col-md-3 maindiv" style="margin-top:0px positon:relative">
+					<input type="text" class="form-control" placeholder="请输入字段名" />
+					<span class="input-group-btn">  
+               <button class="btn btn-info btn-search">查找</button> 
+               <button class="btn btn-info btn-search btnn" style="margin-left:3px">添加</button>  
+            </span>
+				</div>
+
+				<table class="table table-bordered table-hover text-center">
+
+					<thead bgcolor="#cbcbcb">
+						<tr>
+							<th class="text-center col-lg-1">名称</th>
+							<th class="text-center col-lg-3">城市</th>
+							<th class="text-center col-lg-2">邮编</th>
+							<th class="text-center col-lg-2">名称</th>
+							<th class="text-center col-lg-3">城市</th>
+							<th class="text-center col-lg-1">邮编</th>
+						</tr>
+					</thead>
+
+					<tr>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					<tr>
+						<td>Sachin</td>
+						<td>Mumbai</td>
+						<td>400003</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					<tr>
+						<td>Uma</td>
+						<td>Pune</td>
+						<td>411027</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					<tr>
+						<td>Uma</td>
+						<td>Pune</td>
+						<td>411027</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					<tr>
+						<td>Uma</td>
+						<td>Pune</td>
+						<td>411027</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					<tr>
+						<td>Uma</td>
+						<td>Pune</td>
+						<td>411027</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					<tr>
+						<td>Uma</td>
+						<td>Pune</td>
+						<td>411027</td>
+						<td>Tanmay</td>
+						<td>Bangalore</td>
+						<td>560001</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<div class="fenye">
+					<ul class="pagination">
+						<li>
+							<a href="#">&laquo;</a>
+						</li>
+						<li class="active">
+							<a href="#">1</a>
+						</li>
+						<li class="">
+							<a href="#">2</a>
+						</li>
+						<li>
+							<a href="#">3</a>
+						</li>
+						<li>
+							<a href="#">4</a>
+						</li>
+						<li>
+							<a href="#">5</a>
+						</li>
+						<li>
+							<a href="#">6</a>
+						</li>
+						<li>
+							<a href="#">7</a>
+						</li>
+						<li>
+							<a href="#">8</a>
+						</li>
+						<li>
+							<a href="#">9</a>
+						</li>
+						<li>
+							<a href="#">10</a>
+						</li>
+						<li class="li">
+							<a href="#">下一页</a>
+						</li>
+						<li>
+							<a href="#">&raquo;</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer">
+
+		</div>
+
+	</body>
+	<script>
+		
+	
+$(function() {
+			//图片路径名称
+			var arr = ['index_shouye', 'index_ruhui', 'index_yujing', 'index_yidai','index_shanghui','index_xinyong','index_yuqing','index_lianhe','index_duiwai','index_yonghu'];
+			$(".daohang dl").click(function() {
+//			console.log($(this).index());
+				var index = $(this).index();
+				$(this).addClass("active").siblings().removeClass("active");
+				
+			})
+			$(".daohang dl").click(function() {
+					//点击后图片还原
+					$.each($(".daohang dl"), function(i, v) {
+						$(".daohang dl").eq(i).find("img").attr("src", "img/" + arr[i] + ".gif");
+					})
+					$(this).addClass("active").siblings().removeClass("active");
+					var imgData = $(this).find('img').attr('data-Src');
+					$(this).find('img').attr('src', imgData); //改变图片路径
+
+				})
+			
+		})
+</script>
+</html>
