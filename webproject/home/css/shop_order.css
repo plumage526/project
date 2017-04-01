@@ -142,7 +142,7 @@ html {
 }
 .yxd .wrap section .shop_list .tit .tit_right {
   text-align: center;
-  width: 4rem;
+  width: 6rem;
   height: auto;
   background: none;
   color: #ff7f1d;
@@ -163,8 +163,6 @@ html {
   border-top: 1px solid #bfbfbf;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
-  padding-top: 0.5rem;
-  box-sizing: border-box;
 }
 .yxd .wrap footer dl {
   display: -webkit-box;
