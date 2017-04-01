@@ -1,53 +1,109 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>登录注册</title>
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!--<script src="js/angular.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/angular-ui-router.min.js"></script>
+        <script src="js/App_index.js"></script>-->
 	</head>
-	<body class="yxd">
+
+	<body class="yxd" ui-view>
 		<div class="wrap">
 			<header>
-				<img src="images/pwd.gif"/><div class="con">注册</div>
+				<img src="images/pwd.gif" ui-sref="login_fi" />
+				<div class="con">注册</div>
 			</header>
 			<section>
 				<div class="list">
 					<div class="input">
-						<input type="text" placeholder="请输入用户名" />
-					
-						<input type="text" placeholder="请输入密码" />
-					
-						<input type="text" placeholder="请输入手机号码" />
-					
+						<input type="text" placeholder="请输入用户名" id="username" /><br /><span id="usname"></span>
+
+						<input type="text" placeholder="请输入密码" id="pwd" /><br /> <span id="uspwd"></span>
+
+						<input type="text" placeholder="请输入手机号码" id="tel" /><br />
+
 					</div>
 				</div>
 				<div class="reg">
 					<div class="reg_left"><input type="text" placeholder="请输入验证码" /></div>
 					<div class="reg_right">获取验证码</div>
 				</div>
-				<div class="btn"><p>注册</p></div>
+				<div class="btn" id="regg">
+					<p>注册</p>
+				</div>
 			</section>
 			<!--cover-->
-			<!--<div class="cover">
+			<div class="cover">
 			</div>
 			<div class="over">
 				<div class="cover_top">
-					<div><img src="images/error.gif"/></div>
+					<div><img src="images/error.gif" /></div>
 					<p><br />原因</p>
 				</div>
-			</div>-->
+			</div>
 		</div>
 	</body>
-	<!--<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/jquery-3.1.1.js"></script>
 	<script>
-		$(".btn").on("click",function(){
-			$(".cover").css("display","block");
-			$(".over").css("display","block");
+		//		$(".btn").on("click",function(){
+		//			$(".cover").css("display","block");
+		//			$(".over").css("display","block");
+		//		})
+		//		$(".over").on("click",function(){
+		//			$(".cover").css("display","none");
+		//			$(".over").css("display","none");
+		//		})
+		$("#regg").click(function(){
+			var username = $("#username").val();
+			var pwd = $("#pwd").val();
+			var tel = $("#tel").val();
+			
+			$.ajax({
+				type: "get",
+				url: "http://localhost:3000/users/queryAll?user_name=" + username + "&password=" + pwd,
+				dataType: 'json',
+				success: function(data) {
+					if(username==""|| pwd==""){
+						alert("用户名密码不能为空");
+						return false;
+					}else{
+						if(data.code == -1) {
+							alert("用户名或密码重复");
+							return false;
+						}else if(data.code==0){
+							$.ajax({
+								type: "get",
+								url: "http://localhost:3000/users/useradd?user_name="+username+"&password="+pwd+"&mobile_phone="+tel,
+								dataType: 'json',
+								success: function(data2) {
+									var co = data2.code;
+									if(co==200){
+										alert("注册成功");
+										window.location="./login_first.html";
+									} 
+								}
+							})
+						}
+					}
+				}
+
+			})
+//			if(!/^[a-z]\w{5,17}$/.test(username)){
+//				$("#usname").html("<a style='color:red'>6-18位的字母数字下划线</a>");
+//				return false;
+//			}
+//			if(!/^\w{6,}$/.test(pwd)){
+//				$("#uspwd").html("<a style='color:red'>密码长度不少于6位</a>");
+//				return false;
+//			}
 		})
-		$(".over").on("click",function(){
-			$(".cover").css("display","none");
-			$(".over").css("display","none");
-		})
-	</script>-->
+	</script>
+
 </html>

@@ -1,10 +1,31 @@
-var myApp = angular.module("myApp", ['ui.router']);
+var myApp = angular.module("myApp", ["ui.router"]);
 
 myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
 
 //   $urlRouterProvider.when("", "/PageTab");
 
      $stateProvider
+     	
+     	.state("register", {
+            url: "register",
+            templateUrl: "register.html"
+        })
+     	.state("index_more", {
+            url: "index_more",
+            templateUrl: "index_more.html"
+        })
+     	.state("login_fi", {
+            url: "login_first",
+            templateUrl: "login_first.html"
+        })
+     	.state("login", {
+            url: "login",
+            templateUrl: "login.html"
+        })
+     	.state("password", {
+            url: "password",
+            templateUrl: "pwd.html"
+        })
         .state("index", {
             url: "index",
             templateUrl: "index.html"
