@@ -1,93 +1,101 @@
 var myApp = angular.module("myApp", ["ui.router"]);
+//循环
+myApp.controller('siteCtrl', function($scope, $http) {
+	$http.get("http://localhost:3000/users/shop_order")
+		.success(function(response) {
+			console.log(response);
+			$scope.names = response;
+		});
+});
+//跳转
+myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
-myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
+	//   $urlRouterProvider.when("", "/PageTab");
 
-//   $urlRouterProvider.when("", "/PageTab");
+	$stateProvider
 
-     $stateProvider
-     	
-     	.state("register", {
-            url: "register",
-            templateUrl: "register.html"
-        })
-     	.state("index_more", {
-            url: "index_more",
-            templateUrl: "index_more.html"
-        })
-     	.state("login_fi", {
-            url: "login_first",
-            templateUrl: "login_first.html"
-        })
-     	.state("login", {
-            url: "login",
-            templateUrl: "login.html"
-        })
-     	.state("password", {
-            url: "password",
-            templateUrl: "pwd.html"
-        })
-        .state("index", {
-            url: "index",
-            templateUrl: "index.html"
-        })
-        .state("help", {
-            url:"help",
-            templateUrl: "help.html"
-        })
-        .state("shop_order", {
-            url:"shop_order",
-            templateUrl: "shop_order.html"
-        })
-        .state("return", {
-            url:"index",
-            templateUrl: "index.html"
-        })
-        .state("wallet", {
-            url:"wallet",
-            templateUrl: "wallet.html"
-        })
-        .state("wallet_more", {
-            url:"wallet_more",
-            templateUrl: "wallet_more.html"
-        })
-        .state("wallet_pay", {
-            url:"wallet_pay",
-            templateUrl: "wallet_pay.html"
-        })
-        .state("wallet_pay2", {
-            url:"wallet_pay2",
-            templateUrl: "wallet_pay2.html"
-        })
-        .state("wallet_money", {
-            url:"wallet_money",
-            templateUrl: "wallet_money.html"
-        })
-         .state("wallet_bind", {
-            url:"wallet_bind",
-            templateUrl: "wallet_bind.html"
-        })
-        .state("wallet_detail", {
-            url:"wallet_detail",
-            templateUrl: "wallet_detail.html"
-        })
-        .state("address", {
-            url:"help_mess",
-            templateUrl: "help_mess.html"
-        })
-        .state("review", {
-            url:"review",
-            templateUrl: "review.html"
-        })
-        .state("shop_order_detail", {
-            url:"shop_order_detail",
-            templateUrl: "shop_order_detail.html"
-        })
-         .state("webpro_index", {
-            url:"pro_index",
-            templateUrl: "../../webpro/home/pro_index.html"
-        })
-         
-         .state('expo1', {
+		.state("register", {
+			url: "register",
+			templateUrl: "register.html"
+		})
+		.state("index_more", {
+			url: "index_more",
+			templateUrl: "index_more.html"
+		})
+		.state("login_fi", {
+			url: "login_first",
+			templateUrl: "login_first.html"
+		})
+		.state("login", {
+			url: "login",
+			templateUrl: "login.html"
+		})
+		.state("password", {
+			url: "password",
+			templateUrl: "pwd.html"
+		})
+		.state("index", {
+			url: "index",
+			templateUrl: "index.html"
+		})
+		.state("help", {
+			url: "help",
+			templateUrl: "help.html"
+		})
+		.state("shop_order", {
+			url: "shop_order",
+			templateUrl: "shop_order.html"
+		})
+		.state("return", {
+			url: "index",
+			templateUrl: "index.html"
+		})
+		.state("wallet", {
+			url: "wallet",
+			templateUrl: "wallet.html"
+		})
+		.state("wallet_more", {
+			url: "wallet_more",
+			templateUrl: "wallet_more.html"
+		})
+		.state("wallet_pay", {
+			url: "wallet_pay",
+			templateUrl: "wallet_pay.html"
+		})
+		.state("wallet_pay2", {
+			url: "wallet_pay2",
+			templateUrl: "wallet_pay2.html"
+		})
+		.state("wallet_money", {
+			url: "wallet_money",
+			templateUrl: "wallet_money.html"
+		})
+		.state("wallet_bind", {
+			url: "wallet_bind",
+			templateUrl: "wallet_bind.html"
+		})
+		.state("wallet_detail", {
+			url: "wallet_detail",
+			templateUrl: "wallet_detail.html"
+		})
+		.state("address", {
+			url: "help_mess",
+			templateUrl: "help_mess.html"
+		})
+		.state("review", {
+			url: "review",
+			templateUrl: "review.html"
+		})
+		.state("shop_order_detail", {
+			url: "shop_order_detail",
+			templateUrl: "shop_order_detail.html"
+		})
+		.state("webpro_index", {
+			url: "pro_index",
+			templateUrl: "../../webpro/home/pro_index.html"
+		})
+
+	.state('expo1', {
 			url: 'expo1',
 			templateUrl: '../../webpro/home/expo1.html'
 		})
@@ -111,7 +119,7 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
 			url: 'finish2',
 			templateUrl: '../../webpro/home/finish2.html'
 		})
-		.state('return1',{
+		.state('return1', {
 			url: 'return1',
 			templateUrl: '../../webpro/home/expo1.html'
 		})
@@ -139,8 +147,4 @@ myApp.config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $u
 			url: 'shop_er',
 			templateUrl: '../../webpro/home/shop_er.html'
 		})
-         
-         
-         
-        
 }]);

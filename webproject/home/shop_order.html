@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
 		<title>我的订单(商品订单)</title>
-		<link rel="stylesheet" type="text/css" href="css/shop_order.css"/>
-		 <script src="js/App_index.js"></script>
-		<script src="js/jquery-3.1.1.js"></script>
-		
+		<link rel="stylesheet" type="text/css" href="css/shop_order.css" />
+		<script src="js/angular.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/App_index.js"></script>
+		<script src="js/jquery-3.11.1.js"></script>
+
 	</head>
+
 	<body class="yxd" ui-view>
 		<div class="wrap">
 			<header>
-				<div class="head_left" ui-sref="return"><img src="images/wallet_more_02.gif"/></div>
+				<div class="head_left" ui-sref="return"><img src="images/wallet_more_02.gif" /></div>
 				<div class="head_center">
 					<div class="text">
 						<p class="p_style">商品订单</p>
 						<p>优橙订单</p>
 					</div>
 				</div>
-				<div class="head_right"><img src="images/wallet_more.gif"/></div>
+				<div class="head_right"><img src="images/wallet_more.gif" /></div>
 			</header>
-			<section>
+			<section  ng-controller="siteCtrl">
 				<div class="chance">
 					<ul>
 						<li>81<br/>全部 <span class="span"></span></li>
@@ -30,21 +35,7 @@
 						<li>12<br/>待收货 <span></span></li>
 					</ul>
 				</div>
-				<div class="shop_list" ui-sref="shop_order_detail">
-					<div class="tit">
-						<div class="tit_left">订单编号:ZD1039123003</div>
-						<div class="tit_right">待收货</div>
-					</div>
-					<div class="list_main">
-						<p>总价: <span>¥73.00</span>(商品金额48.00+运费25.00)</p>
-						<p>交易时间:2016-06-01 12:14</p>
-						<p>发货时间:2016-06-02 12:14</p>
-						<p>物流信息:顺丰速递  85246953</p>
-							
-					</div>
-					
-				</div>
-				<div class="shop_list">
+				<!--<div class="shop_list">
 					<div class="tit">
 						<div class="tit_left">订单编号:ZD1039123003</div>
 						<div class="tit_right">待发货</div>
@@ -53,10 +44,28 @@
 						<p>总价: <span>¥73.00</span>(商品金额48.00+运费25.00)</p>
 						<p>交易时间:2016-06-01 12:14</p>
 						<p>发货时间:2016-06-02 12:14</p>
-						<p>物流信息:顺丰速递  85246953</p>	
+						<p>物流信息:顺丰速递 85246953</p>
 					</div>
-				</div>
-				<div class="shop_list">
+				</div>-->
+				<!--测试数据-->
+				
+					<div class="shop_list" ui-sref="shop_order_detail" ng-repeat="x in names" >
+						<div class="tit">
+							<div class="tit_left">订单编号:{{ x.goods_sn}}</div>
+							<div class="tit_right">待收货</div>
+						</div>
+						<div class="list_main">
+							<p>总价: <span>¥{{ x.market_price}}</span>(商品金额{{ x.market_price}}+运费25.00)</p>
+							<p>交易时间:{{ x.add_time}}</p>
+							<p>发货时间:{{ x.last_update}}</p>
+							<p>物流信息:顺丰速递 85246953</p>
+
+						</div>
+
+					</div>
+				
+				<!---->
+				<!--<div class="shop_list">
 					<div class="tit">
 						<div class="tit_left">订单编号:ZD1039123003</div>
 						<div class="tit_right">未付款</div>
@@ -68,7 +77,7 @@
 						<p>物流信息:顺丰速递  85246953</p>
 							
 					</div>
-				</div>
+				</div>-->
 			</section>
 			<footer>
 				<dl ui-sref="index">
@@ -91,4 +100,5 @@
 			</footer>
 		</div>
 	</body>
+
 </html>
